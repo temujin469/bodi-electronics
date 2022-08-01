@@ -758,7 +758,7 @@ html .nav-color-light:not(.header-nav-main-dropdown-arrow) nav > ul > li ul {
 .nav-pills > li.active > a:hover,
 .nav-pills .nav-link.active:hover,
 .nav-pills > li.active > a:focus,
-.nav-pills .nav-link.active:var(--blue)
+.nav-pills .nav-link.active:var(--blue){
   background-color: #00aace;
 }
 .nav-active-style-1 > li > a:hover,
