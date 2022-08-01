@@ -88,9 +88,9 @@ pre {
   z-index: 1030;
 }
 
-#header .header-body.header-body-bottom-border-fixed {
+/* #header .header-body.header-body-bottom-border-fixed {
   border-bottom: 1px solid rgba(234, 234, 234, 0.5) !important;
-}
+} */
 #header .header-body[class*="border-color-"] {
   border-bottom: 0 !important;
 }
@@ -852,14 +852,14 @@ pre {
 }
 #header .header-nav-features .header-nav-features-cart .totals .label {
   float: left;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 13px;
   font-weight: 700;
   color: #474747;
 }
 #header .header-nav-features .header-nav-features-cart .totals .price-total {
   float: right;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 15px;
   font-weight: 700;
   color: #474747;
@@ -877,7 +877,7 @@ pre {
   font-size: 0.7rem;
   padding: 11.2px 16px;
   padding: 0.7rem 1rem;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
 }
 #header
@@ -908,7 +908,7 @@ pre {
   color: #444;
   font-size: 13px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: none;
 }
 #header
   .header-nav-features
@@ -955,7 +955,7 @@ pre {
   font-size: 0.7rem;
   padding: 11.2px 16px;
   padding: 0.7rem 1rem;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 600;
 }
 #header .header-nav-features .header-nav-features-user .extra-actions {
@@ -1400,11 +1400,7 @@ html:not(.sticky-header-active)
   .header-body {
   background-color: transparent !important;
 }
-html:not(.sticky-header-active)
-  #header.header-semi-transparent-light
-  .header-body {
-  background-color:var(--transBlue)  !important;
-}
+
 html:not(.sticky-header-active)
   #header.header-semi-transparent-dark
   .header-body {
@@ -1444,9 +1440,9 @@ html:not(.sticky-header-active)
   html #header.header-transparent .header-nav-main:before {
     width: calc(100% - 30px);
   }
-  html #header.header-transparent .header-nav-main nav {
-    padding: 0 30px;
-  }
+  /* html #header.header-transparent .header-nav-main nav {
+    padding: 0px;
+  } */
   html.sticky-header-active #header.header-transparent .header-nav-main nav {
     padding: 0 15px;
   }
@@ -2043,13 +2039,13 @@ html.sticky-header-enabled.sticky-header-active
   #header .header-nav-main.header-nav-main-font-lg-upper nav > ul > li > a {
     font-size: 0.95rem;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: -1px;
   }
   #header .header-nav-main.header-nav-main-font-lg-upper-2 nav > ul > li > a {
     font-size: 0.82rem;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 0;
   }
   #header .header-nav-main.header-nav-main-font-alternative nav > ul > li > a {
@@ -2257,7 +2253,7 @@ html.sticky-header-enabled.sticky-header-active
     font-style: normal;
     font-weight: 600;
     letter-spacing: -0.5px;
-    text-transform: uppercase;
+    text-transform: none;
     position: relative;
     background: 0 0 !important;
     color: #444;
@@ -5631,7 +5627,7 @@ html.sticky-header-enabled.sticky-header-active
     border-bottom: 0;
   }
   #header .header-nav-main nav > ul > li > a {
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -6132,7 +6128,7 @@ html.sticky-header-enabled.sticky-header-active
     color: #333;
     font-size: 0.85em;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: -0.5px;
   }
   html.side-header-hamburguer-sidebar
@@ -7454,7 +7450,7 @@ html.side-header-hamburguer-sidebar-narrow-bar .slider-container {
   .side-header-narrow-bar-content-vertical {
   transform: rotate(-90deg);
   white-space: nowrap;
-  text-transform: uppercase;
+  text-transform: none;
   margin-left: -18%;
 }
 @media (max-width: 991px) {
@@ -9554,8 +9550,8 @@ h6 .inverted {
 .text-justify {
   text-align: justify;
 }
-.text-uppercase {
-  text-transform: uppercase !important;
+.text-none {
+  text-transform: none !important;
 }
 .text-lowercase {
   text-transform: lowercase !important;
@@ -11532,7 +11528,7 @@ a.text-light:hover {
   font-style: normal;
   font-weight: 700;
   letter-spacing: -0.5px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
   text-decoration: none;
 }
