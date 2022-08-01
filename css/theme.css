@@ -138,6 +138,8 @@ pre {
   display: flex;
   align-items: center;
   /* align-self: stretch; */
+  overflow-y: hidden;
+  overflow: hidden;
   justify-content: space-between !important;
   max-height: 100%;
 }
@@ -283,14 +285,7 @@ pre {
   align-self: stretch;
   align-items: center;
 }
-#header .header-nav-top .nav > li > a,
-#header .header-nav-top .nav > li > span {
-  color: #999;
-  font-size: 0.9em;
-  padding: 6px 10px;
-  display: inline-block;
-  letter-spacing: -0.5px;
-}
+
 #header .header-nav-top .nav > li > a [class*="fa-"],
 #header .header-nav-top .nav > li > a .icons,
 #header .header-nav-top .nav > li > span [class*="fa-"],
@@ -2652,17 +2647,7 @@ html.sticky-header-enabled.sticky-header-active
     min-height: 0;
     margin-top: 0;
   }
-  #header .header-nav.header-nav-links nav > ul > li > a,
-  #header .header-nav.header-nav-links nav > ul > li:hover > a,
-  #header .header-nav.header-nav-line nav > ul > li > a,
-  #header .header-nav.header-nav-line nav > ul > li:hover > a {
-    position: relative;
-    background: 0 0 !important;
-    padding: 0 3rem;
-    margin: 0;
-    min-height: 60px;
-    height: 100%;
-  }
+  
   #header .header-nav.header-nav-links nav > ul > li:hover > a:before,
   #header .header-nav.header-nav-links nav > ul > li.open > a:before,
   #header
@@ -9776,7 +9761,7 @@ a.text-light:hover {
   border-left: 1px solid #dadada !important;
 }
 .border-right {
-  border-right: 1px solid #dadada !important;
+  border-right: 1px solid #252525 !important;
 }
 .border-all {
   border: 1px solid #dadada !important;

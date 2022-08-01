@@ -1,7 +1,8 @@
 :root {
-  --blue: #1c97e7;
+  --blue: #296cba;
+  --tsaiwarBlue:#2398e3;
   --transBlue: #ffffff3a;
-  --textColor: rgb(110, 110, 110);
+  --textColor: rgb(44, 44, 44);
   --ulbarShar: #f16122;
 }
 
@@ -10,6 +11,15 @@ a {
 }
 
 /* ====== header ====== */
+#header .header-nav-top .nav > li > a {
+  padding: 0;
+  display: inline-block;
+}
+
+#header .header-nav-top .nav > li > i {
+  font-size: 15px;
+  color: var(--textColor);
+}
 
 @media (max-width: 990px) {
   #header .header-container #header-links {
@@ -17,10 +27,37 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+}
 
-  #header .header-row2 .logo img {
-    width: 200px !important;
-  }
+#header .header-row2 .logo img {
+  width: 100px !important;
+  /* background-color: white; */
+}
+
+html.sticky-header-active #header .logo-column {
+  background-color: white !important;
+  height: 80px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+html:not(.sticky-header-active)
+  #header.header-semi-transparent-light
+  .header-body {
+  background-color: var(--transBlue) !important;
+}
+
+#header .header-nav.header-nav-links nav > ul > li > a,
+#header .header-nav.header-nav-links nav > ul > li:hover > a,
+#header .header-nav.header-nav-line nav > ul > li > a,
+#header .header-nav.header-nav-line nav > ul > li:hover > a {
+  position: relative;
+  background: 0 0 !important;
+  padding: 0 3rem;
+  margin: 0;
+  height: 60px;
+  height: 100%;
 }
 
 @media (min-width: 991px) {
@@ -30,11 +67,16 @@ a {
     transition: all ease transform 300ms !important;
   }
 
-  html:not(.sticky-header-active)
-  #header.header-semi-transparent-light
-  .header-body {
-  background-color:var(--transBlue)  !important;
-}
+  #header .header-nav.header-nav-links nav > ul > li > a,
+  #header .header-nav.header-nav-links nav > ul > li:hover > a,
+  #header .header-nav.header-nav-line nav > ul > li > a,
+  #header .header-nav.header-nav-line nav > ul > li:hover > a {
+    min-height: 80px;
+  }
+
+  #header .header-row2 .logo img {
+    width: 130px !important;
+  }
 
   #header .header-nav.header-nav-links nav > ul > li > a {
     font-size: 18px;
@@ -64,7 +106,6 @@ a {
   color: var(--textColor) !important;
 }
 
-
 #header .header-body {
   display: flex;
   flex-direction: column;
@@ -84,9 +125,9 @@ a {
   margin-top: 0;
 }
 
-.tom-carousel .owl-carousel .owl-dots .owl-dot.active span,
-.tom-carousel .owl-carousel .owl-dots .owl-dot:hover span {
-  background-color: var(--ulbarShar);
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: var(--ulbarShar) !important;
 }
 
 .tom-carousel .background-filter {
@@ -95,9 +136,14 @@ a {
   height: 100%;
   z-index: 1;
   top: 0;
-  left:0;
-  background: rgb(28,151,231);
-background: linear-gradient(90deg, rgba(28,151,231,1) 0%, rgba(28,151,231,0.7371323529411764) 15%, rgba(28,151,231,0) 61%);
+  left: 0;
+  background: rgb(28, 110, 235);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 110, 235, 1) 0%,
+    rgba(28, 110, 235, 0.7819502801120448) 18%,
+    rgba(28, 110, 235, 0) 66%
+  );
 }
 
 .owl-carousel .owl-nav.large {
@@ -116,6 +162,10 @@ background: linear-gradient(90deg, rgba(28,151,231,1) 0%, rgba(28,151,231,0.7371
   margin: 0;
   color: var(--ulbarShar);
 }
+
+/* .tom-carousel .owl-carousel .owl-nav button {
+  box-shadow: none !important;
+} */
 
 .owl-carousel.nav-bottom .owl-nav {
   position: static;
@@ -164,7 +214,7 @@ background: linear-gradient(90deg, rgba(28,151,231,1) 0%, rgba(28,151,231,0.7371
   font-size: larger;
   opacity: 1;
   animation-name: buttonAnimat;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in;
 }
 
@@ -282,12 +332,17 @@ section.section-4 .owl-carousel img:hover {
 
 /*========= footer ========= */
 #footer {
-  background-color: var(--blue);
+  background: rgb(41, 108, 186);
+  background: linear-gradient(
+    0deg,
+    rgba(41, 108, 186, 1) 0%,
+    rgba(35, 152, 227, 1) 94%
+  );
 }
 
-#footer .footer-bottom {
+/* #footer .footer-bottom {
   background-color: #1d77dd;
-}
+} */
 
 #footer h5,
 #footer a {
@@ -312,7 +367,7 @@ section.section-4 .owl-carousel img:hover {
 }
 
 #footer .social-links i:hover {
-  background-color: var(--blue);
+  background-color: var(--tsaiwarBlue);
   border-color: white;
   color: white;
 }
@@ -337,7 +392,7 @@ section.section-4 .owl-carousel img:hover {
     justify-content: center;
     font-size: 30px;
     align-items: center;
-    color: var(--blue);
+    color: var(--tsaiwarBlue);
     display: flex;
     width: 50px;
     height: 50px;

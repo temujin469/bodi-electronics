@@ -2859,14 +2859,14 @@ html .inverted-light {
   border:none;
   z-index: 100;
 }
-.owl-carousel:not(.nav-arrows-1):not(.show-nav-title)
+.section-2 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title)
   .owl-nav
   button[class*="owl-"]:hover,
-.owl-carousel:not(.nav-arrows-1):not(.show-nav-title)
+.section-2 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title)
   .owl-nav
   button[class*="owl-"].hover {
   background-color:white;
-  box-shadow: 1px 1px 3px 1px #888888;
+  box-shadow: 1px 1px 3px 1px #8888;
   color:var(--blue);
 }
 .owl-carousel:not(.nav-arrows-1):not(.show-nav-title)

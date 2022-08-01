@@ -3322,12 +3322,12 @@ html.sticky-header-active
 }
 .owl-carousel.nav-icon-1 .owl-nav .owl-next:before {
   font-family: 'Font Awesome\ 6 Free';
-  content: "\f061";
+  content: "\f054";
   font-weight: 700;
 }
 .owl-carousel.nav-icon-1 .owl-nav .owl-prev:before {
   font-family: 'Font Awesome\ 6 Free';
-  content: "\f060";
+  content: "\f053";
   font-weight: 700;
 }
 .owl-carousel.nav-size-md .owl-nav .owl-next {
@@ -5362,7 +5362,7 @@ hr.pattern.pattern-2:after,
 }
 .flag {
   width: 16px;
-  height: 11px;
+  height: 16px;
   background: url(../img/flags.png) no-repeat;
 }
 .flag.flag-ad {
