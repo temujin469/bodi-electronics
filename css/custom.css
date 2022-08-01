@@ -311,6 +311,7 @@ section.section-3 .read-more-button:hover h4 {
 /*========= section-4 ========= */
 section.section-4 .owl-carousel img {
   border: 1px solid gray;
+  padding: 5px;
   margin: 0;
   object-fit: contain;
 }
@@ -348,6 +349,16 @@ section.section-4 .owl-carousel img:hover {
 #footer a {
   color: white !important;
   margin: 0 !important;
+
+  text-transform: none;
+  font-size: large;
+  font-weight: 500;
+}
+#footer h5,
+#footer a {
+  color: white !important;
+  margin: 0 !important;
+  
   text-transform: none;
   font-size: large;
   font-weight: 500;
@@ -367,7 +378,7 @@ section.section-4 .owl-carousel img:hover {
 }
 
 #footer .social-links i:hover {
-  background-color: var(--tsaiwarBlue);
+  background-color: var(--ulbarShar);
   border-color: white;
   color: white;
 }
