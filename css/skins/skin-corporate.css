@@ -2668,7 +2668,7 @@ html .toggle-primary.toggle-simple .toggle > .toggle-title:after {
 }
 html .toggle-primary.toggle-minimal .toggle.active > label,
 html .toggle-primary.toggle-minimal .toggle.active > .toggle-title {
-  color: #00aace;
+  color: var(--blue);
 }
 html .toggle-secondary .toggle label,
 html .toggle-secondary .toggle .toggle-title {

@@ -1,0 +1,24 @@
+html > body > .main p,h1,h2,h3,h4 {
+  margin: 0;
+  text-transform: none;
+  padding: 0;
+}
+
+/* header color */
+html:not(.sticky-header-active)
+  #header.header-semi-transparent-light
+  .header-body {
+  background-color: var(--saaral) !important;
+}
+
+body > .body > .main {
+  padding-top: 144px;
+}
+
+i.fa-check {
+  background-color: var(--blue);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  color: var(--white);
+}

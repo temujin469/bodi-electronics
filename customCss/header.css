@@ -1,0 +1,101 @@
+#header .header-nav-top .nav > li > a {
+  padding: 0;
+  display: inline-block;
+}
+
+#header .header-nav-top .nav > li.header-nav-features i {
+  font-size: 15px;
+  color: var(--textColor);
+}
+
+@media (max-width: 990px) {
+  #header .header-container #header-links {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+#header .header-row2 .logo img {
+  width: 100px !important;
+  /* background-color: white; */
+}
+
+html.sticky-header-active #header .logo-column {
+  background-color: white !important;
+  height: 80px;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+html.sticky-header-active #header.header-semi-transparent-light .header-body {
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.618) !important;
+}
+
+#header .header-nav.header-nav-links nav > ul > li > a,
+#header .header-nav.header-nav-links nav > ul > li:hover > a,
+#header .header-nav.header-nav-line nav > ul > li > a,
+#header .header-nav.header-nav-line nav > ul > li:hover > a {
+  position: relative;
+  background: 0 0 !important;
+  padding: 0 3rem;
+  margin: 0;
+  height: 60px;
+  height: 100%;
+}
+
+@media (min-width: 991px) {
+  #header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
+    color: white;
+    transition: all ease transform 300ms !important;
+  }
+
+  #header .header-nav.header-nav-links nav > ul > li > a,
+  #header .header-nav.header-nav-links nav > ul > li:hover > a,
+  #header .header-nav.header-nav-line nav > ul > li > a,
+  #header .header-nav.header-nav-line nav > ul > li:hover > a {
+    min-height: 80px;
+  }
+
+  #header .header-row2 .logo img {
+    width: 130px !important;
+  }
+
+  #header .header-nav.header-nav-links nav > ul > li > a {
+    font-size: 18px;
+  }
+
+  #header .header-nav.header-nav-links nav > ul > li:hover > a {
+    background-color: white !important;
+    color: var(--blue) !important;
+    transition: all ease transform 300ms !important;
+  }
+
+  .dropdown-menu .dropdown-mega-content .row div:not(:last-child) {
+    border-right: 1px solid var(--blue);
+  }
+
+}
+
+#header .header-top {
+  border-bottom: none;
+  background-color: white;
+  min-height: 47px;
+}
+#header .header-top .header-row a {
+  color: var(--textColor) !important;
+}
+
+#header .header-body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue) !important;
+  transition: min-height 0.3s ease;
+  width: 100%;
+  border-top: none;
+  border-bottom: none;
+  z-index: 1001;
+}

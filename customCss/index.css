@@ -1,0 +1,222 @@
+/* header color */
+html:not(.sticky-header-active)
+  #header.header-semi-transparent-light
+  .header-body {
+  background-color: var(--transColor) !important;
+}
+
+@media (min-width: 991px) {
+  .owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .carsoul-content {
+    max-width: 60%;
+  }
+}
+
+.owl-carousel.dots-inside .owl-dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+  /* width: auto; */
+  margin-top: 0;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: var(--ulbarShar) !important;
+}
+
+.tom-carousel .background-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(28, 110, 235);
+  background: linear-gradient(90deg,
+      rgba(28, 110, 235, 1) 0%,
+      rgba(28, 110, 235, 0.7819502801120448) 18%,
+      rgba(28, 110, 235, 0) 66%);
+}
+
+.owl-carousel .owl-nav.large {
+  bottom: 0;
+  right: 3rem;
+  position: absolute;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.tom-carousel .owl-carousel .owl-nav button.owl-prev i,
+.tom-carousel .owl-carousel .owl-nav button.owl-next i {
+  outline: 0;
+  margin: 0;
+  color: var(--ulbarShar);
+}
+
+/* .tom-carousel .owl-carousel .owl-nav button {
+  box-shadow: none !important;
+} */
+
+.owl-carousel.nav-bottom .owl-nav {
+  position: static;
+  margin: 0;
+  padding: 0;
+  transform: none;
+}
+
+.owl-carousel.rounded-nav .owl-nav button[class*="owl-"] {
+  padding: 3px 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: 0 0;
+  border: 1px solid #999;
+  color: #999;
+}
+
+/* .owl-carousel.nav-bottom .owl-nav button.owl-prev::before {
+  font-family: 'Font Awesome\ 5 Free';
+  content: "<";
+}
+.owl-carousel.nav-bottom .owl-nav button.owl-next::before {
+  font-family: 'Font Awesome\ 5 Free';
+  content: ">";
+} */
+
+@keyframes buttonAnimat {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item button.carsoul-button {
+  width: fit-content;
+  padding: 2px 30px 2px 30px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: larger;
+  opacity: 1;
+  animation-name: buttonAnimat;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+.owl-carousel>.owl-stage-outer>.owl-stage>.owl-item button.carsoul-button:hover {
+  background-color: white;
+  color: var(--blue);
+}
+
+/*========= section-2 ========= */
+section.section-2 h5 {
+  padding-top: 10px;
+  text-align: center;
+  border-top: 2px solid rgb(56, 56, 56);
+}
+
+section.section-2 article>.row img {
+  padding-bottom: 10px;
+}
+
+section.section-2 article:hover h5 {
+  color: var(--blue);
+}
+
+section.section-2 article>.row {
+  justify-content: center;
+}
+
+section.section-2 article {
+  width: 148px;
+  height: 195px;
+}
+
+section.section-2 .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  display: flex;
+  padding: 5px;
+  height: 210px !important;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 !important;
+}
+
+section.section-2 .owl-carousel .owl-stage {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+}
+
+/* tom delgets deer */
+section.section-2 .owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+/* jijig delgets deer */
+section.section-2 .owl-carousel .owl-dots:not(.disabled),
+section.section-2 .owl-carousel .owl-nav:not(.disabled) {
+  display: none;
+}
+
+/*========= section-3 ========= */
+section.section-3 article:hover {
+  box-shadow: 1px 1px 6px gray;
+  color: var(--blue);
+}
+
+section.section-3 article {
+  height: 433px;
+}
+
+section.section-3 article:hover a {
+  color: var(--blue) !important;
+}
+
+section.section-3 .read-more-button:hover i.fa-arrow-right {
+  color: var(--blue) !important;
+  text-shadow: 1px 1px 3px gray;
+}
+
+section.section-3 .read-more-button:hover h4 {
+  text-shadow: 1px 1px 3px gray;
+}
+
+/*========= section-4 ========= */
+section.section-4 .owl-carousel img {
+  border: 1.5px solid rgb(212, 212, 212);
+  padding: 5px;
+  margin: 0;
+  object-fit: contain;
+}
+
+section.section-4 .owl-carousel .owl-stage {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+}
+
+section.section-4 .owl-carousel .owl-stage .owl-item {
+  padding: 10px;
+}
+
+section.section-4 .owl-carousel img:hover {
+  box-shadow: 1px 1px 6px gray;
+}

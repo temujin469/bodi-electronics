@@ -1,0 +1,23 @@
+:root {
+  --blue: #296cba;
+  --white: #fff;
+  --black:#000;
+  --tsaiwarBlue:#2398e3;
+  --transColor: #e4e4e457;
+  --saaral:rgb(179, 179, 179);
+  --textColor: rgb(42, 42, 42);
+  --ulbarShar: #f16122;
+}
+
+.text-with-icon {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}

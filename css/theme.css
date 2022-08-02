@@ -14,7 +14,7 @@ html {
 }
 body {
   background-color: #fff;
-  color: #777;
+  color: var(--textColor);
   font-family:'Manrope', sans-serif !important;
   font-size: 14px;
   line-height: 26px;
@@ -22,7 +22,9 @@ body {
 }
 body a {
   outline: none !important;
+  text-decoration: none !important;
 }
+
 .body {
   background-color: #fff;
 }
