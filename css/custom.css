@@ -1,8 +1,8 @@
 :root {
   --blue: #296cba;
   --tsaiwarBlue:#2398e3;
-  --transBlue: #ffffff3a;
-  --textColor: rgb(44, 44, 44);
+  --transBlue: #e4e4e457;
+  --textColor: rgb(56, 56, 56);
   --ulbarShar: #f16122;
 }
 
@@ -16,7 +16,7 @@ a {
   display: inline-block;
 }
 
-#header .header-nav-top .nav > li > i {
+#header .header-nav-top .nav > li.header-nav-features i {
   font-size: 15px;
   color: var(--textColor);
 }
@@ -48,6 +48,10 @@ html:not(.sticky-header-active)
   background-color: var(--transBlue) !important;
 }
 
+html.sticky-header-active #header.header-semi-transparent-light .header-body {
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.618) !important;
+}
+
 #header .header-nav.header-nav-links nav > ul > li > a,
 #header .header-nav.header-nav-links nav > ul > li:hover > a,
 #header .header-nav.header-nav-line nav > ul > li > a,
@@ -62,8 +66,7 @@ html:not(.sticky-header-active)
 
 @media (min-width: 991px) {
   #header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
-    background-color: white !important;
-    color: var(--blue);
+    color: white;
     transition: all ease transform 300ms !important;
   }
 
@@ -310,7 +313,7 @@ section.section-3 .read-more-button:hover h4 {
 
 /*========= section-4 ========= */
 section.section-4 .owl-carousel img {
-  border: 1px solid gray;
+  border: 1.5px solid rgb(212, 212, 212);
   padding: 5px;
   margin: 0;
   object-fit: contain;
@@ -349,10 +352,10 @@ section.section-4 .owl-carousel img:hover {
 #footer a {
   color: white !important;
   margin: 0 !important;
-
   text-transform: none;
   font-size: large;
   font-weight: 500;
+  line-height: 25px;
 }
 #footer h5,
 #footer a {

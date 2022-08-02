@@ -5363,6 +5363,7 @@ hr.pattern.pattern-2:after,
 .flag {
   width: 16px;
   height: 16px;
+  object-fit: contain;
   background: url(../img/flags.png) no-repeat;
 }
 .flag.flag-ad {
