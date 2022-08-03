@@ -1442,7 +1442,7 @@ html:not(.sticky-header-active)
     padding: 0px;
   } */
   html.sticky-header-active #header.header-transparent .header-nav-main nav {
-    padding: 0 15px;
+    padding: 0 0;
   }
 }
 html.sticky-header-active
@@ -5446,7 +5446,7 @@ html.sticky-header-enabled.sticky-header-active
     max-height: 50vh;
     overflow: hidden;
     overflow-y: auto;
-    padding: 0 15px;
+    background-color: var(--white);
     transition: ease all 500ms;
   }
   #header .header-nav-main nav.collapsing {
@@ -5473,11 +5473,11 @@ html.sticky-header-enabled.sticky-header-active
     padding: 0;
     position: relative;
   }
-  #header .header-nav-main nav > ul li a {
+  #header .header-nav-main nav > ul  ul.dropdown-mega-sub-nav > li a.dropdown-item {
     font-size: 13px;
     font-style: normal;
     line-height: 20px;
-    padding: 7px 8px;
+    padding: 7px 30px ;
     margin: 1px 0;
     border-radius: 4px;
     text-align: left;
@@ -5581,15 +5581,17 @@ html.sticky-header-enabled.sticky-header-active
   }
   #header .header-nav-main nav > ul li.dropdown.open > .dropdown-menu {
     display: block;
-    margin-left: 20px;
+    margin-left: 0;
   }
   #header .header-nav-main nav > ul li.dropdown-mega .dropdown-mega-sub-title {
-    margin-top: 10px;
     display: block;
+    padding: 7px 20px;
     text-align: left;
+    color: var(--black);
   }
   #header .header-nav-main nav > ul li.dropdown-mega .dropdown-mega-sub-nav {
     margin: 0 0 0 0px;
+    background-color: var(--tsagaanSaaral);
     padding: 0;
     list-style: none;
   }
