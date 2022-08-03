@@ -1,111 +1,181 @@
 <!DOCTYPE html>
 <html
-  data-style-switcher-options="{'changeLogo': false, 'borderRadius': 0, 'colorPrimary': '#18B696', 'colorSecondary': '#e36159', 'colorTertiary': '#2baab1', 'colorQuaternary': '#383f48'}">
+  data-style-switcher-options="{'changeLogo': false, 'borderRadius': 0, 'colorPrimary': '#18B696', 'colorSecondary': '#e36159', 'colorTertiary': '#2baab1', 'colorQuaternary': '#383f48'}"
+>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Бодь Электроникс ХХК</title>
 
-  <title>Бодь Электроникс ХХК</title>
+    <meta name="description" content="Бодь Электроникс ХХК" />
 
-  <meta name="description" content="Бодь Электроникс ХХК" />
-
-  <!-- Favicon -->
-  <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" /> -->
 
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
 
-  <!-- Web Fonts  -->
+    <!-- Web Fonts  -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS -->
-  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
-  <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css" />
-  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/magnific-popup/magnific-popup.min.css"
+    />
 
-  <!-- Theme CSS -->
-  <link rel="stylesheet" href="css/theme.css" />
-  <link rel="stylesheet" href="css/theme-elements.css" />
-  <link rel="stylesheet" href="css/theme-blog.css" />
-  <link rel="stylesheet" href="css/theme-shop.css" />
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-elements.css" />
+    <link rel="stylesheet" href="css/theme-blog.css" />
+    <link rel="stylesheet" href="css/theme-shop.css" />
 
-  <!-- Skin CSS -->
-  <link id="skinCSS" rel="stylesheet" href="css/skins/skin-corporate.css" />
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="css/skins/skin-corporate.css" />
 
-  <!-- ========= Custom CSS ======== -->
-  <link rel="stylesheet" href="customCss/global.css" />
-  <link rel="stylesheet" href="customCss/index.css" />
-  <link rel="stylesheet" href="customCss/header.css" />
-  <link rel="stylesheet" href="customCss/footer.css" />
+    <!-- ========= Custom CSS ======== -->
+    <link rel="stylesheet" href="customCss/global.css" />
+    <link rel="stylesheet" href="customCss/index.css" />
+    <link rel="stylesheet" href="customCss/header.css" />
+    <link rel="stylesheet" href="customCss/footer.css" />
 
-  <!-- Head Libs -->
-  <script src="vendor/modernizr/modernizr.min.js"></script>
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
 
-  <!-- font-awesome5 -->
-  <script src="https://kit.fontawesome.com/e61ce33beb.js" crossorigin="anonymous"></script>
+    <!-- font-awesome5 -->
+    <script
+      src="https://kit.fontawesome.com/e61ce33beb.js"
+      crossorigin="anonymous"
+    ></script>
 
-</head>
+    <!-- index page feature -->
+    <style>
+      @media (min-width: 991px) {
+        html:not(.sticky-header-active)
+          #header.header-semi-transparent-light
+          .header-body {
+          background-color: var(--transColor) !important;
+        }
+      }
 
-<body data-plugin-page-transition>
+      body > .body > .main {
+        padding-top: 0 !important;
+      }
+    </style>
+  </head>
 
-  <div class="body">
-    <!-- header start -->
-    <header id="header" class="header-transparent header-semi-transparent header-semi-transparent-light"
-      data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 65, 'stickySetTop': '-65px'}">
-      <div class="border-top-0 header-body box-shadow-none">
-        <div class="header-top">
-          <div class="px-md-5 px-3 h-100">
-            <div class="header-row h-100 justify-content-between d-flex">
-              <div class="header-row">
-                <div class="header-logo">
-                  <a href="index.html">
-                    <img alt="logo" width="200" src="./logo/logo bodi.png" />
-                  </a>
-                </div>
-              </div>
-              <div class="header-column">
+  <body data-plugin-page-transition>
+    <div class="body">
+      <!-- header start -->
+      <header
+        id="header"
+        class="header-transparent header-semi-transparent header-semi-transparent-light"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 65, 'stickySetTop': '-65px'}"
+      >
+        <div class="border-top-0 header-body box-shadow-none">
+          <div class="header-top">
+            <div class="px-md-5 px-3 h-100">
+              <div class="header-row h-100 justify-content-between d-flex">
                 <div class="header-row">
-                  <nav class="header-nav-top">
-                    <ul class="nav nav-pills d-flex align-items-center">
-                      <li class="nav-item nav-item-borders pe-3 py-2 d-none d-lg-inline-flex">
-                        <a href="#">ХОЛБОО БАРИХ</a>
-                      </li>
-                      <li class="nav-item nav-item-borders pe-3 border-right header-nav-features">
-                        <a data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <i class="fas fa-search header-nav-top-icon"></i>
-                        </a>
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                          aria-hidden="true">
-                          <div class="modal-dialog modal-xl shadow">
-                            <div class="modal-content p-4 p-lg-5">
-                              <div class="input-group">
-                                <span class="input-group-text" id="basic-addon1">
-                                  <i class="fas fa-search header-nav-top-icon"></i>
-                                </span>
-                                <input class="form-control" placeholder="Хайх..."/>
+                  <div class="header-logo">
+                    <a href="index.html">
+                      <img alt="logo" width="200" src="./logo/logo bodi.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="header-column">
+                  <div class="header-row">
+                    <nav class="header-nav-top">
+                      <ul class="nav nav-pills d-flex align-items-center">
+                        <li
+                          class="nav-item nav-item-borders pe-3 py-2 d-none d-lg-inline-flex"
+                        >
+                          <a href="#">ХОЛБОО БАРИХ</a>
+                        </li>
+                        <li
+                          class="nav-item nav-item-borders pe-3 border-right header-nav-features"
+                        >
+                          <a
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fas fa-search header-nav-top-icon"></i>
+                          </a>
+                          <!-- Modal -->
+                          <div
+                            class="modal fade"
+                            id="exampleModal"
+                            tabindex="-1"
+                            aria-labelledby="exampleModalLabel"
+                            aria-hidden="true"
+                          >
+                            <div class="modal-dialog modal-xl shadow">
+                              <div class="modal-content p-4 p-lg-5">
+                                <div class="input-group">
+                                  <span
+                                    class="input-group-text"
+                                    id="basic-addon1"
+                                  >
+                                    <i
+                                      class="fas fa-search header-nav-top-icon"
+                                    ></i>
+                                  </span>
+                                  <input
+                                    class="form-control"
+                                    placeholder="Хайх..."
+                                  />
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                      </li>
-                      <li class="nav-item nav-item-borders py-2 pe-0 dropdown">
-                        <a class="nav-link ps-3" href="#" role="button" id="dropdownLanguage" data-bs-toggle="dropdown"
-                          aria-haspopup="true" aria-expanded="false">
-                          <img src="img/flags/eng.png" class="flag" alt="English" />
-                          <!-- <i class="fas fa-angle-down"></i> -->
-                        </a>
-                        <!-- <div
+                        </li>
+                        <li
+                          class="nav-item nav-item-borders py-2 pe-0 dropdown"
+                        >
+                          <a
+                            class="nav-link ps-3"
+                            href="#"
+                            role="button"
+                            id="dropdownLanguage"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                          >
+                            <img
+                              src="img/flags/eng.png"
+                              class="flag"
+                              alt="English"
+                            />
+                            <!-- <i class="fas fa-angle-down"></i> -->
+                          </a>
+                          <!-- <div
                             class="dropdown-menu dropdown-menu-end"
                             aria-labelledby="dropdownLanguage"
                           >
@@ -126,42 +196,48 @@
                               Mongolia
                             </a>
                           </div> -->
-                      </li>
-                    </ul>
-                  </nav>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="header-container header-container-height-sm">
-          <div class="header-links" id="header-links">
-            <!-- Menu button start -->
-            <div class="header-column">
-              <div class="header-row">
-                <button class="btn header-btn-collapse-nav ms-0 ms-sm-3" data-bs-toggle="collapse"
-                  data-bs-target=".header-nav-main nav">
-                  <i class="fas fa-bars"></i>
-                </button>
-              </div>
-            </div>
-            <!--Menu button end -->
-
-            <div class="header-row2">
+          <div class="header-container header-container-height-sm">
+            <div class="header-links" id="header-links">
+              <!-- Menu button start -->
               <div class="header-column">
                 <div class="header-row">
-                  <div class="header-nav header-nav-links header-nav-light-text">
+                  <button
+                    class="btn header-btn-collapse-nav ms-0 ms-sm-3"
+                    data-bs-toggle="collapse"
+                    data-bs-target=".header-nav-main nav"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                </div>
+              </div>
+              <!--Menu button end -->
+
+              <div class="header-row2">
+                <div class="header-column">
+                  <div class="header-row">
                     <div
-                      class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
-                      <nav class="collapse header-mobile-border-top">
-                        <ul class="nav nav-pills" id="mainNav"></ul>
-                      </nav>
+                      class="header-nav header-nav-links header-nav-light-text"
+                    >
+                      <div
+                        class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1"
+                      >
+                        <nav class="collapse header-mobile-border-top">
+                          <ul class="nav nav-pills" id="mainNav"></ul>
+                        </nav>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
-              <!-- <div class="header-column header-column-border-left flex-grow-0 justify-content-center">
+                <!-- <div class="header-column header-column-border-left flex-grow-0 justify-content-center">
                   <div class="header-row ps-4 justify-content-end">
                     <button
                       class="btn header-btn-collapse-nav ms-0 ms-sm-3"
@@ -172,46 +248,57 @@
                     </button>
                   </div>
                 </div> -->
-              <div class="header-column logo-column px-3 px-lg-4 me-lg-4">
-                <div class="header-row">
-                  <div class="logo">
-                    <a href="index.html">
-                      <img alt="entera logo" width="130" data-sticky-width="280" src="./logo/entera logo.png" />
-                    </a>
+                <div class="header-column logo-column px-3 px-lg-4 me-lg-4">
+                  <div class="header-row">
+                    <div class="logo">
+                      <a href="index.html">
+                        <img
+                          alt="entera logo"
+                          width="130"
+                          data-sticky-width="280"
+                          src="./logo/entera logo.png"
+                        />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <!-- header end -->
+      </header>
+      <!-- header end -->
 
-    <div role="main" class="main">
-
-      <!-- Carousel start -->
-      <section id="section-top">
-        <div
-          class="owl-carousel tom-carousel owl-carousel-light owl-theme manual dots-inside show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0 position-relative"
-          data-plugin-options="{'autoplayTimeout': 9000}"
-          data-dynamic-height="['700px','700px','700px','550px','500px']" style="height: 700px">
-          <div class="owl-stage-outer">
-            <div class="owl-stage">
-              <!--slide1 start-->
-              <div class="owl-item position-relative" style="
+      <div role="main" class="main">
+        <!-- Carousel start -->
+        <section id="section-top">
+          <div
+            class="owl-carousel tom-carousel owl-carousel-light owl-theme manual dots-inside show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0 position-relative"
+            data-plugin-options="{'autoplayTimeout': 9000}"
+            data-dynamic-height="['700px','700px','700px','550px','500px']"
+            style="height: 700px"
+          >
+            <div class="owl-stage-outer">
+              <div class="owl-stage">
+                <!--slide1 start-->
+                <div
+                  class="owl-item position-relative"
+                  style="
                     background-image: url(https://img.freepik.com/free-photo/millennial-group-young-businesspeople-asia-businessman-businesswoman-celebrate-giving-five-after-dealing-feeling-happy-signing-contract-agreement-meeting-room-small-modern-office_7861-2498.jpg?w=2000);
                     background-size: cover;
                     background-position: center;
-                  ">
-                <!-- filter start -->
-                <div class="background-filter"></div>
-                <!-- filter end -->
+                  "
+                >
+                  <!-- filter start -->
+                  <div class="background-filter"></div>
+                  <!-- filter end -->
 
-                <div class="container position-absolute top-50 left-10 z-index-10 h-100">
-                  <div class="carsoul-content justify-content-start h-100">
-                    <div class="d-flex flex-column w-lg-50">
-                      <!-- <h2
+                  <div
+                    class="container position-absolute top-50 left-10 z-index-10 h-100"
+                  >
+                    <div class="carsoul-content justify-content-start h-100">
+                      <div class="d-flex flex-column w-lg-50">
+                        <!-- <h2
                         class="text-color-light font-weight-extra-bold text-10 text-md-12-13 line-height-1 mb-2 appear-animation"
                         data-appear-animation="blurIn"
                         data-appear-animation-delay="500"
@@ -219,452 +306,598 @@
                       >
                         AMAZING DESIGN
                       </h2> -->
-                      <p class="text-4-5 text-color-light font-weight-light mb-4" data-plugin-animated-letters
-                        data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}">
-                        Монгол улсын томоохон банк санхүүгийн байгууллагын
-                        1000 орчим салбарыг хяналтын камержуулах ажлыг
-                        гүйцэтгэв.
-                      </p>
-                      <button class="carsoul-button">Дэлгэрэнгүй</button>
+                        <p
+                          class="text-4-5 text-color-light font-weight-light mb-4"
+                          data-plugin-animated-letters
+                          data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}"
+                        >
+                          Монгол улсын томоохон банк санхүүгийн байгууллагын
+                          1000 орчим салбарыг хяналтын камержуулах ажлыг
+                          гүйцэтгэв.
+                        </p>
+                        <button class="carsoul-button">Дэлгэрэнгүй</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- slide1 end -->
+                <!-- slide1 end -->
 
-              <!--slide2 start-->
-              <div class="owl-item position-relative" style="
+                <!--slide2 start-->
+                <div
+                  class="owl-item position-relative"
+                  style="
                     background-image: url(https://img.freepik.com/free-photo/millennial-group-young-businesspeople-asia-businessman-businesswoman-celebrate-giving-five-after-dealing-feeling-happy-signing-contract-agreement-meeting-room-small-modern-office_7861-2516.jpg?w=2000);
                     background-size: cover;
                     background-position: center;
-                  ">
-                <!-- filter start -->
-                <div class="background-filter"></div>
-                <!-- filter end -->
+                  "
+                >
+                  <!-- filter start -->
+                  <div class="background-filter"></div>
+                  <!-- filter end -->
 
-                <div class="container position-absolute top-50 left-10 z-index-10 h-100">
-                  <div class="carsoul-content justify-content-start h-100">
-                    <div class="d-flex flex-column w-lg-50">
-                      <p class="text-4-5 text-color-light font-weight-light mb-4" data-plugin-animated-letters
-                        data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}">
-                        Бодь-Электроникс ХХК Монгол улсад хамгийн анх ухаалаг
-                        чип бүхий IC картыг нэвтрүүлллээ
-                      </p>
-                      <button class="carsoul-button">Үргэлжлүүлэх</button>
+                  <div
+                    class="container position-absolute top-50 left-10 z-index-10 h-100"
+                  >
+                    <div class="carsoul-content justify-content-start h-100">
+                      <div class="d-flex flex-column w-lg-50">
+                        <p
+                          class="text-4-5 text-color-light font-weight-light mb-4"
+                          data-plugin-animated-letters
+                          data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}"
+                        >
+                          Бодь-Электроникс ХХК Монгол улсад хамгийн анх ухаалаг
+                          чип бүхий IC картыг нэвтрүүлллээ
+                        </p>
+                        <button class="carsoul-button">Үргэлжлүүлэх</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <!-- slide2 end -->
-            </div>
-          </div>
-
-          <div class="owl-nav large">
-            <button type="button" role="presentation" class="owl-prev">
-              <i class="fa-solid fa-chevron-left"></i>
-            </button>
-            <button type="button" role="presentation" class="owl-next">
-              <i class="fa-solid fa-chevron-right"></i>
-            </button>
-          </div>
-          <div class="owl-dots">
-            <button role="button" class="owl-dot active">
-              <span></span>
-            </button>
-            <button role="button" class="owl-dot"><span></span></button>
-          </div>
-        </div>
-        <!-- Carousel end  -->
-      </section>
-
-      <section class="container section-2">
-        <div>
-          <h3 class="my-5 py-3 border-bottom border-dark">Шийдэл</h3>
-          <div class="owl-carousel owl-theme nav-bottom-align-right nav-bottom nav-icon-1 rounded-nav"
-            data-plugin-options="{'responsive': {'0': {'items': 2}, '479': {'items': 2}, '768': {'items': 3}, '979': {'items': 5}, '1199': {'items': 5}}, 'loop': false, 'autoHeight': true, 'margin': 10, 'nav':true,'dots':false, 'loop':true}">
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/shiidel/settings 1.png" class="img-fluid w-100" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="text-center">байгууллагын сервер сторайж</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/shiidel/smart-city (1) 1.png" class="img-fluid w-100" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Дэд бүтэц</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/shiidel/cyber-security (1) 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">
-                      Мэдээллийн аюулгүй байдал
-                    </h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/shiidel/group 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Харилцаа холбоо</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/shiidel/global-network (1) 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Сүлжээ</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- zaag -->
-        <div>
-          <h3 class="mb-5 py-3 border-bottom border-dark">Үйлчилгээ</h3>
-          <div class="owl-carousel owl-theme nav-bottom-align-right nav-bottom nav-icon-1 rounded-nav mb-5"
-            data-plugin-options="{'responsive': {'0': {'items': 2}, '479': {'items': 2}, '768': {'items': 3}, '979': {'items': 5}, '1199': {'items': 5}}, 'loop': false, 'autoHeight': true, 'margin': 10, 'nav':true,'dots':false, 'loop':true}">
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/uilchilgee/brainstorming 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Зөвлөх үйлчилгээ</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/uilchilgee/maintenance 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">
-                      Программ хангамж хөгжүүлэх
-                    </h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/uilchilgee/monitoring 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Гэрээт засвар</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/uilchilgee/network 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">Үүлэн технологи</h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 mb-4 mb-md-0">
-              <article>
-                <div class="row">
-                  <div class="col-10 justify-content-center">
-                    <a href="#" class="text-decoration-none">
-                      <img src="./icon/uilchilgee/software-development 1.png" class="img-fluid" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <h5 class="ls-0 text-center">
-                      Программ хангамжийн Лицензжүүлэлт
-                    </h5>
-                  </div>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section border-0 video overlay overlay-show overlay-op-8 m-0"
-        data-video-path="./video/Untitled video - Made with Clipchamp (1).mp4" data-plugin-video-background
-        data-plugin-options="{'posterType': 'jpg', 'position': '50% 50%'}" style="height: 600px">
-        <div class="container position-relative z-index-3 h-100">
-          <div class="row align-items-center h-100">
-            <div class="col">
-              <div class="d-flex flex-column align-items-center justify-content-center h-100">
-                <h1
-                  class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation"
-                  data-appear-animation="fadeInDownShorterPlus" data-plugin-options="{'minWindowWidth': 0}">
-                  <span class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3">
-                    <img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation"
-                      data-appear-animation="fadeInRightShorter" data-appear-animation-delay="250"
-                      data-plugin-options="{'minWindowWidth': 0}" alt="" />
-                  </span>
-                  <span class="position-relative">1995-2022 он<span
-                      class="position-absolute left-50pct transform3dx-n50 top-0 mt-3"><img
-                        src="img/slides/slide-blue-line.png" class="w-auto appear-animation"
-                        data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1000"
-                        data-plugin-options="{'minWindowWidth': 0}" alt="" /></span></span>
-                  <span class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3">
-                    <img src="img/slides/slide-title-border-light.png" class="w-auto appear-animation"
-                      data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="250"
-                      data-plugin-options="{'minWindowWidth': 0}" alt="" />
-                  </span>
-                </h1>
-                <h1 class="text-color-light font-weight-extra-bold text-12 line-height-1 mb-2 appear-animation"
-                  data-appear-animation="blurIn" data-appear-animation-delay="1000"
-                  data-plugin-options="{'minWindowWidth': 0}">
-                  Бодь Электроникс ХХК
-                </h1>
-                <p class="text-4 text-color-light font-weight-light opacity-7 mb-0" data-plugin-animated-letters
-                  data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}">
-                  Аливаа бизнес харилцан итгэлцэл дээр тогтдог
-                </p>
+                <!-- slide2 end -->
               </div>
             </div>
+
+            <div class="owl-nav large">
+              <button type="button" role="presentation" class="owl-prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button type="button" role="presentation" class="owl-next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="owl-dots">
+              <button role="button" class="owl-dot active">
+                <span></span>
+              </button>
+              <button role="button" class="owl-dot"><span></span></button>
+            </div>
           </div>
-          <!-- <a href="#main" class="slider-scroll-button position-absolute bottom-10 left-50pct transform3dx-n50" data-hash data-hash-offset="0" data-hash-offset-lg="80">Sroll To Bottom</a> -->
-        </div>
-      </section>
+          <!-- Carousel end  -->
+        </section>
 
-      <section class="section-3 pb-5 mt-5 appear-animation" data-appear-animation="fadeIn">
-        <div class="container">
-          <h3>Мэдээ мэдээлэл</h3>
-
-          <div class="row gap-md-0 gap-4 justify-content-lg-between justify-content-center appear-animation"
-            data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-            <div class="col-sm-8 col-md-4">
-              <article class="border">
-                <div class="row">
-                  <div class="col">
-                    <a href="blog-post.html" class="text-decoration-none">
-                      <img
-                        src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-                        class="img-fluid hover-effect-2" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row px-4 py-3">
-                  <div class="col">
-                    <p class="text-2 mb-1">
-                      <i class="fa-solid fa-calendar-lines-pen"></i> 2022.7.31
-                    </p>
-                    <h4 class="line-height-5 ls-0">
-                      <a href="blog-post.html" class="text-dark text-decoration-none">Бодь-Электроникс ХХК Монгол улсад
-                        хамгийн анх ухаалаг
-                        чип бүхий IC картыг нэвтрүүлллээ</a>
-                    </h4>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-4">
-              <article class="border">
-                <div class="row">
-                  <div class="col">
-                    <a href="blog-post.html" class="text-decoration-none">
-                      <img
-                        src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-                        class="img-fluid hover-effect-2" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row px-4 py-3">
-                  <div class="col">
-                    <p class="text-2 mb-1">
-                      <i class="fa-solid fa-calendar-lines-pen"></i> 2022.7.31
-                    </p>
-                    <h4 class="line-height-5 ls-0">
-                      <a href="blog-post.html" class="text-dark text-decoration-none">Мэдээлэл холбооны сүлжээ ТӨХК-Н
-                        үндсэн сүлжээний
-                        өргөтгөлийн ТӨСӨЛ-д хамтран ажиллаа.</a>
-                    </h4>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-4">
-              <article class="border">
-                <div class="row">
-                  <div class="col">
-                    <a href="blog-post.html" class="text-decoration-none">
-                      <img
-                        src="https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                        class="img-fluid hover-effect-2" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="row px-4 py-3">
-                  <div class="col">
-                    <p class="text-2 mb-1">
-                      <i class="fa-light fa-calendar-lines"></i> 2022.7.31
-                    </p>
-                    <h4 class="line-height-5 ls-0">
-                      <a href="blog-post.html" class="text-dark text-decoration-none">Боловсролын яаманд Hp брэндийн
-                        1000 орчим laptop-г
-                        нийлүүллээ.
+        <section class="container section-2">
+          <div>
+            <h3 class="my-5 py-3 border-bottom border-dark">Шийдэл</h3>
+            <div
+              class="owl-carousel owl-theme nav-bottom-align-right nav-bottom nav-icon-1 rounded-nav"
+              data-plugin-options="{'responsive': {'0': {'items': 2}, '479': {'items': 2}, '768': {'items': 3}, '979': {'items': 5}, '1199': {'items': 5}}, 'loop': false, 'autoHeight': true, 'margin': 10, 'nav':true,'dots':false, 'loop':true}"
+            >
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/shiidel/settings 1.png"
+                          class="img-fluid w-100"
+                          alt=""
+                        />
                       </a>
-                    </h4>
+                    </div>
                   </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="text-center">байгууллагын сервер сторайж</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/shiidel/smart-city (1) 1.png"
+                          class="img-fluid w-100"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Дэд бүтэц</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/shiidel/cyber-security (1) 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">
+                        Мэдээллийн аюулгүй байдал
+                      </h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/shiidel/group 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Харилцаа холбоо</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/shiidel/global-network (1) 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Сүлжээ</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <!-- zaag -->
+          <div>
+            <h3 class="mb-5 py-3 border-bottom border-dark">Үйлчилгээ</h3>
+            <div
+              class="owl-carousel owl-theme nav-bottom-align-right nav-bottom nav-icon-1 rounded-nav mb-5"
+              data-plugin-options="{'responsive': {'0': {'items': 2}, '479': {'items': 2}, '768': {'items': 3}, '979': {'items': 5}, '1199': {'items': 5}}, 'loop': false, 'autoHeight': true, 'margin': 10, 'nav':true,'dots':false, 'loop':true}"
+            >
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/uilchilgee/brainstorming 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Зөвлөх үйлчилгээ</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/uilchilgee/maintenance 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">
+                        Программ хангамж хөгжүүлэх
+                      </h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/uilchilgee/monitoring 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Гэрээт засвар</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/uilchilgee/network 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">Үүлэн технологи</h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 mb-4 mb-md-0">
+                <article>
+                  <div class="row">
+                    <div class="col-10 justify-content-center">
+                      <a href="#" class="text-decoration-none">
+                        <img
+                          src="./icon/uilchilgee/software-development 1.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="ls-0 text-center">
+                        Программ хангамжийн Лицензжүүлэлт
+                      </h5>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section border-0 video overlay overlay-show overlay-op-8 m-0"
+          data-video-path="./video/Untitled video - Made with Clipchamp (1).mp4"
+          data-plugin-video-background
+          data-plugin-options="{'posterType': 'jpg', 'position': '50% 50%'}"
+          style="height: 600px"
+        >
+          <div class="container position-relative z-index-3 h-100">
+            <div class="row align-items-center h-100">
+              <div class="col">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center h-100"
+                >
+                  <h1
+                    class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation"
+                    data-appear-animation="fadeInDownShorterPlus"
+                    data-plugin-options="{'minWindowWidth': 0}"
+                  >
+                    <span
+                      class="position-absolute right-100pct top-50pct transform3dy-n50 opacity-3"
+                    >
+                      <img
+                        src="img/slides/slide-title-border-light.png"
+                        class="w-auto appear-animation"
+                        data-appear-animation="fadeInRightShorter"
+                        data-appear-animation-delay="250"
+                        data-plugin-options="{'minWindowWidth': 0}"
+                        alt=""
+                      />
+                    </span>
+                    <span class="position-relative"
+                      >1995-2022 он<span
+                        class="position-absolute left-50pct transform3dx-n50 top-0 mt-3"
+                        ><img
+                          src="img/slides/slide-blue-line.png"
+                          class="w-auto appear-animation"
+                          data-appear-animation="fadeInLeftShorterPlus"
+                          data-appear-animation-delay="1000"
+                          data-plugin-options="{'minWindowWidth': 0}"
+                          alt="" /></span
+                    ></span>
+                    <span
+                      class="position-absolute left-100pct top-50pct transform3dy-n50 opacity-3"
+                    >
+                      <img
+                        src="img/slides/slide-title-border-light.png"
+                        class="w-auto appear-animation"
+                        data-appear-animation="fadeInLeftShorter"
+                        data-appear-animation-delay="250"
+                        data-plugin-options="{'minWindowWidth': 0}"
+                        alt=""
+                      />
+                    </span>
+                  </h1>
+                  <h1
+                    class="text-color-light font-weight-extra-bold text-12 line-height-1 mb-2 appear-animation"
+                    data-appear-animation="blurIn"
+                    data-appear-animation-delay="1000"
+                    data-plugin-options="{'minWindowWidth': 0}"
+                  >
+                    Бодь Электроникс ХХК
+                  </h1>
+                  <p
+                    class="text-4 text-color-light font-weight-light opacity-7 mb-0"
+                    data-plugin-animated-letters
+                    data-plugin-options="{'startDelay': 2000, 'minWindowWidth': 0}"
+                  >
+                    Аливаа бизнес харилцан итгэлцэл дээр тогтдог
+                  </p>
                 </div>
-              </article>
+              </div>
+            </div>
+            <!-- <a href="#main" class="slider-scroll-button position-absolute bottom-10 left-50pct transform3dx-n50" data-hash data-hash-offset="0" data-hash-offset-lg="80">Sroll To Bottom</a> -->
+          </div>
+        </section>
+
+        <section
+          class="section-3 pb-5 mt-5 appear-animation"
+          data-appear-animation="fadeIn"
+        >
+          <div class="container">
+            <h3>Мэдээ мэдээлэл</h3>
+
+            <div
+              class="row gap-md-0 gap-4 justify-content-lg-between justify-content-center appear-animation"
+              data-appear-animation="fadeInUpShorter"
+              data-appear-animation-delay="200"
+            >
+              <div class="col-sm-8 col-md-4">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="blog-post.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFua3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                          class="img-fluid hover-effect-2"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1">
+                        <i class="fa-solid fa-calendar-lines-pen"></i> 2022.7.31
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="blog-post.html"
+                          class="text-dark text-decoration-none"
+                          >Бодь-Электроникс ХХК Монгол улсад хамгийн анх ухаалаг
+                          чип бүхий IC картыг нэвтрүүлллээ</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 col-md-4">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="blog-post.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                          class="img-fluid hover-effect-2"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1">
+                        <i class="fa-solid fa-calendar-lines-pen"></i> 2022.7.31
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="blog-post.html"
+                          class="text-dark text-decoration-none"
+                          >Мэдээлэл холбооны сүлжээ ТӨХК-Н үндсэн сүлжээний
+                          өргөтгөлийн ТӨСӨЛ-д хамтран ажиллаа.</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-sm-8 col-md-4">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="blog-post.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                          class="img-fluid hover-effect-2"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1">
+                        <i class="fa-light fa-calendar-lines"></i> 2022.7.31
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="blog-post.html"
+                          class="text-dark text-decoration-none"
+                          >Боловсролын яаманд Hp брэндийн 1000 орчим laptop-г
+                          нийлүүллээ.
+                        </a>
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div
+              class="d-flex gap-3 align-items-center mt-4 justify-content-end"
+            >
+              <a class="read-more-button d-flex gap-3 align-items-center">
+                <h4 class="text-end m-0">Бүх мэдээллийг үзэх</h4>
+                <i class="fa-solid fa-arrow-right text-6 text-dark"></i>
+              </a>
             </div>
           </div>
-          <div class="d-flex gap-3 align-items-center mt-4 justify-content-end">
-            <a class="read-more-button d-flex gap-3 align-items-center">
-              <h4 class="text-end m-0">Бүх мэдээллийг үзэх</h4>
-              <i class="fa-solid fa-arrow-right text-6 text-dark"></i>
-            </a>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="container section-4">
-        <h3 class="mt-4 mb-0">Түншлэл</h3>
+        <section class="container section-4">
+          <h3 class="mt-4 mb-0">Түншлэл</h3>
 
-        <div class="row py-4">
-          <div class="col py-3">
-            <div class="owl-carousel owl-theme mb-0" id="companies-carousel"
-              data-plugin-options="{'responsive': {'0': {'items': 2}, '476': {'items': 3}, '768': {'items': 5},'992': {'items': 5}, '1200': {'items': 5}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': true}">
-              <img class="company" src="company-logo/Apple.png" alt="" />
-              <img class="company" src="company-logo/Artboard-1.png" alt="" />
-              <img class="company" src="company-logo/bang&olufsen.png" alt="" />
-              <img class="company" src="company-logo/blackvue.png" alt="" />
-              <img class="company" src="company-logo/bxb.png" alt="" />
-              <img class="company" src="company-logo/ddw.png" alt="" />
-              <img class="company" src="company-logo/East-UPS.PNG" alt="" />
-              <img class="company" src="company-logo/Fujitsu.png" alt="" />
-              <img class="company" src="company-logo/Hanwha--Techwin.png" alt="" />
-              <img class="company" src="company-logo/hp.png" alt="" />
-              <img class="company" src="company-logo/HPE.PNG" alt="" />
-              <img class="company" src="company-logo/Microsoft.png" alt="" />
-              <img class="company" src="company-logo/Miele.png" alt="" />
-              <img class="company" src="company-logo/netorkoptis.png" alt="" />
-              <img class="company" src="company-logo/Oracle.png" alt="" />
-              <img class="company" src="company-logo/Radware.png" alt="" />
-              <img class="company" src="company-logo/riello.png" alt="" />
-              <img class="company" src="company-logo/Suprema.png" alt="" />
-              <img class="company" src="company-logo/teltonika.png" alt="" />
-              <img class="company" src="company-logo/voltek.png" alt="" />
-              <img class="company" src="company-logo/Watchguard.png" alt="" />
-              <img class="company" src="company-logo/yarmee.png" alt="" />
-              <img class="company" src="company-logo/zebra.png" alt="" />
+          <div class="row py-4">
+            <div class="col py-3">
+              <div
+                class="owl-carousel owl-theme mb-0"
+                id="companies-carousel"
+                data-plugin-options="{'responsive': {'0': {'items': 2}, '476': {'items': 3}, '768': {'items': 5},'992': {'items': 5}, '1200': {'items': 5}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': true}"
+              >
+                <img class="company" src="partners-logos/Apple.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Artboard-1.png"
+                  alt=""
+                />
+                <img
+                  class="company"
+                  src="partners-logos/bang&olufsen.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/blackvue.png" alt="" />
+                <img class="company" src="partners-logos/bxb.png" alt="" />
+                <img class="company" src="partners-logos/ddw.png" alt="" />
+                <img class="company" src="partners-logos/East-UPS.PNG" alt="" />
+                <img class="company" src="partners-logos/Fujitsu.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Hanwha--Techwin.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/hp.png" alt="" />
+                <img class="company" src="partners-logos/HPE.PNG" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Microsoft.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/Miele.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/netorkoptis.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/Oracle.png" alt="" />
+                <img class="company" src="partners-logos/Radware.png" alt="" />
+                <img class="company" src="partners-logos/riello.png" alt="" />
+                <img class="company" src="partners-logos/Suprema.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/teltonika.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/voltek.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Watchguard.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/yarmee.png" alt="" />
+                <img class="company" src="partners-logos/zebra.png" alt="" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+
+      <section id="footer-section"></section>
     </div>
+    <!-- footer end -->
 
-    <section id="footer-section"></section>
-  </div>
-  <!-- footer end -->
+    <!-- Vendor -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.validation/jquery.validate.min.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="vendor/lazysizes/lazysizes.min.js"></script>
+    <script src="vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/jquery.vide.min.js"></script>
+    <script src="vendor/vivus/vivus.min.js"></script>
 
-  <!-- Vendor -->
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-  <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/jquery.validation/jquery.validate.min.js"></script>
-  <script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>
-  <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-  <script src="vendor/lazysizes/lazysizes.min.js"></script>
-  <script src="vendor/isotope/jquery.isotope.min.js"></script>
-  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="vendor/vide/jquery.vide.min.js"></script>
-  <script src="vendor/vivus/vivus.min.js"></script>
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
 
-  <!-- Theme Base, Components and Settings -->
-  <script src="js/theme.js"></script>
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
 
-  <!-- Theme Initialization Files -->
-  <script src="js/theme.init.js"></script>
+    <!-- components files -->
+    <script src="./components/footer.js"></script>
+    <script src="./components/header.js"></script>
 
-  <!-- components files -->
-  <script src="./components/footer.js"></script>
-  <script src="./components/header.js"></script>
-
-
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
-    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
-    data-cf-beacon='{"rayId":"7327862fa8fb32c1","version":"2022.6.0","r":1,"token":"03fa3b9eb60b49789931c4694c153f9b","si":100}'
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+      data-cf-beacon='{"rayId":"7327862fa8fb32c1","version":"2022.6.0","r":1,"token":"03fa3b9eb60b49789931c4694c153f9b","si":100}'
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

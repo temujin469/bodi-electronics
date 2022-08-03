@@ -7108,7 +7108,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212529;
+  color:var(--textColor);
   font-weight: 200;
   letter-spacing: -0.05em;
   margin: 0;
@@ -15383,6 +15383,10 @@ section.timeline .timeline-box .owl-carousel {
   margin: 10px 0 20px;
   position: relative;
   clear: both;
+}
+div.toggle {
+  border-top: 3px solid var(--blue) !important;
+  height: fit-content;
 }
 .toggle .toggle {
   margin: 10px 0 0;

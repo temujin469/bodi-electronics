@@ -17,7 +17,7 @@ const headerTop = `
                   <nav class="header-nav-top">
                     <ul class="nav nav-pills d-flex align-items-center">
                       <li class="nav-item nav-item-borders pe-3 py-2 d-none d-lg-inline-flex">
-                        <a href="#">ХОЛБОО БАРИХ</a>
+                        <a href="/contact.html">ХОЛБОО БАРИХ</a>
                       </li>
                       <li class="nav-item nav-item-borders pe-3 border-right header-nav-features">
                         <div class="header-nav-feature header-nav-features-search d-inline-flex">
@@ -112,24 +112,24 @@ const headerMainNav = `
                                       <span class="dropdown-mega-sub-title">Мэдээллийн технологийн шийдэл</span>
                                       <ul class="dropdown-mega-sub-nav">
                                         <li>
-                                          <a class="dropdown-item" href="elements-random-images.html">Аюулгүй байдал</a>
+                                          <a class="dropdown-item" href="#">Аюулгүй байдал</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-read-more.html">Харилцаа холбоо</a>
+                                          <a class="dropdown-item" href="#">Харилцаа холбоо</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-read-more.html">Сүлжээ</a>
+                                          <a class="dropdown-item" href="#">Сүлжээ</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-read-more.html">Байгууллагын ажлын
+                                          <a class="dropdown-item" href="#">Байгууллагын ажлын
                                             талбар</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-read-more.html">Байгууллагын сервер,
+                                          <a class="dropdown-item" href="#">Байгууллагын сервер,
                                             Сторай</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-read-more.html">Дэд бүтэц</a>
+                                          <a class="dropdown-item" href="#">Дэд бүтэц</a>
                                         </li>
                                       </ul>
                                     </div>
@@ -137,22 +137,22 @@ const headerMainNav = `
                                       <span class="dropdown-mega-sub-title">Бизнесийн шийдэл</span>
                                       <ul class="dropdown-mega-sub-nav">
                                         <li>
-                                          <a class="dropdown-item" href="elements-word-rotator.html">IOT Edge</a>
+                                          <a class="dropdown-item" href="#">IOT Edge</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">Өгөгдлийн
+                                          <a class="dropdown-item" href="#">Өгөгдлийн
                                             менежмент</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">Аналитик </a>
+                                          <a class="dropdown-item" href="#">Аналитик </a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">автоматжуулалт
+                                          <a class="dropdown-item" href="#">автоматжуулалт
                                           </a>
 
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">дүрслэл </a>
+                                          <a class="dropdown-item" href="#">дүрслэл </a>
                                         </li>
                                       </ul>
                                     </div>
@@ -195,27 +195,27 @@ const headerMainNav = `
                                         </ul>
                                         <ul class="dropdown-mega-sub-nav">
                                           <li>
-                                            <a class="dropdown-item" href="elements-random-images.html">Удирдлагын
+                                            <a class="dropdown-item" href="#">Удирдлагын
                                               програмууд</a>
                                           </li>
                                           <li>
-                                            <a class="dropdown-item" href="elements-read-more.html"> Хувийн үүлэн
+                                            <a class="dropdown-item" href="#"> Хувийн үүлэн
                                               технологи</a>
                                           </li>
                                           <li>
-                                            <a class="dropdown-item" href="elements-read-more.html"> Хувийн үүлэн
+                                            <a class="dropdown-item" href="#"> Хувийн үүлэн
                                               технологи</a>
                                           </li>
                                           <li>
-                                            <a class="dropdown-item" href="elements-read-more.html">Дээд зэрэглэлийн
+                                            <a class="dropdown-item" href="#">Дээд зэрэглэлийн
                                               тусламжийн үйлчилгээ</a>
                                           </li>
                                           <li>
-                                            <a class="dropdown-item" href="elements-read-more.html">Програм хангамжийн
+                                            <a class="dropdown-item" href="#">Програм хангамжийн
                                               лицензжүүлэлт</a>
                                           </li>
                                           <li>
-                                            <a class="dropdown-item" href="elements-read-more.html">И-Хангамж Худалдан
+                                            <a class="dropdown-item" href="#">И-Хангамж Худалдан
                                               авалт</a>
                                           </li>
                                         </ul>
@@ -226,15 +226,15 @@ const headerMainNav = `
                                       <span class="dropdown-mega-sub-title">Борлуулалтын дараахи засвар үйлчилгээ</span>
                                       <ul class="dropdown-mega-sub-nav">
                                         <li>
-                                          <a class="dropdown-item" href="elements-word-rotator.html">Гэрээт засвар
+                                          <a class="dropdown-item" href="#">Гэрээт засвар
                                             үйлчилгээ</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">Дуудлагын
+                                          <a class="dropdown-item" href="#">Дуудлагын
                                             засвар үйлчилгээ</a>
                                         </li>
                                         <li>
-                                          <a class="dropdown-item" href="elements-360-image-viewer.html">Газар дээрх
+                                          <a class="dropdown-item" href="#">Газар дээрх
                                             засвар үйлчилгээ</a>
                                         </li>
                                       </ul>

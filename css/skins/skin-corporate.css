@@ -56,10 +56,7 @@ html .text-color-hover-quaternary:hover,
 html .text-hover-quaternary:hover {
   color: #383f48 !important;
 }
-html .text-color-dark,
-html .text-dark {
-  color: #212529 !important;
-}
+
 html .text-color-hover-dark:hover,
 html .text-hover-dark:hover {
   color: #212529 !important;

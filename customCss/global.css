@@ -9,6 +9,16 @@
   --ulbarShar: #f16122;
 }
 
+/* header color */
+html:not(.sticky-header-active)
+  #header .header-body {
+  background-color: var(--saaral) !important;
+}
+
+body > .body > .main {
+  padding-top: 144px;
+}
+
 .text-with-icon {
   display: flex !important;
   flex-direction: row;
@@ -20,4 +30,8 @@
   display: flex !important;
   justify-content: center;
   align-items: center;
+}
+
+div.row-text-padding > * {
+  padding: 5px 27px 5px 27px !important;
 }
