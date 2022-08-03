@@ -1,8 +1,23 @@
-
+section.toggle > .toggle-content > a:hover {
+  color: var(--blue);
+}
 i.fa-check {
   background-color: var(--blue);
   border-radius: 50%;
   width: 23px;
   height: 23px;
   color: var(--white);
+}
+.center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-with-icon {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
 }

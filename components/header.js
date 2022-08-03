@@ -1,5 +1,5 @@
 const headerMainNavSection= document.getElementById('mainNav');
-// const headerTopSection = document.getElementById('header-top-section');
+const headerTopSection = document.getElementById('header-top-section');
 
 const headerTop = `
 <div class="header-top">
@@ -75,7 +75,7 @@ const headerTop = `
 
 const headerMainNav = `
 <li>
-                            <a class="dropdown-item active" href="/salbar.html">
+                            <a class="dropdown-item" href="/salbar.html">
                               Салбар
                             </a>
                           </li>
@@ -246,6 +246,7 @@ const headerMainNav = `
                           </li>
 `;
 
+
 // headerTopSection.innerHTML = headerTop;
-headerMainNavSection.innerHTML = headerMainNav
+// headerMainNavSection.innerHTML = headerMainNav
 

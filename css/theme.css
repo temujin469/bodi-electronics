@@ -1602,7 +1602,7 @@ html.sticky-header-enabled.sticky-header-active
   #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a:focus,
   #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a.active,
   #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a:active {
-    background-color: transparent;
+    background-color: var(--white);
   }
   #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li:hover > a,
   #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li:focus > a,
@@ -9956,7 +9956,7 @@ a.text-light:hover {
 }
 @media (min-width: 1200px) {
   .container:not(.container-bs):not(.container-xl-custom):not(.container-xxl-custom) {
-    max-width: 1140px;
+    max-width: 1400px;
   }
 }
 @media (min-width: 1440px) {

@@ -5,8 +5,19 @@
   --tsaiwarBlue:#2398e3;
   --transColor: #e4e4e457;
   --saaral:rgb(179, 179, 179);
+  --tsagaanSaaral:rgb(238, 238, 238);
   --textColor: rgb(42, 42, 42);
   --ulbarShar: #f16122;
+  --sm:576px;
+  --md:768px;
+  --lg:992px;
+}
+
+
+@media (max-width:764px) {
+  html > body > .body > .main h3 {
+    font-size: 17px ;
+  }
 }
 
 /* header color */
@@ -17,19 +28,11 @@ html:not(.sticky-header-active)
 
 body > .body > .main {
   padding-top: 144px;
+  user-select: none;
 }
 
-.text-with-icon {
-  display: flex !important;
-  flex-direction: row;
-  align-items: center;
-  gap: 13px;
-}
-
-.center {
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
+.bg-saaral {
+  background-color: var(--tsagaanSaaral);
 }
 
 div.row-text-padding > * {

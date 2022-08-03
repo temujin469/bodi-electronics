@@ -13,7 +13,7 @@
   --quaternary: #383f48;
 }
 a {
-  color: #00aace;
+  color: var(--textColor);
 }
 a:hover {
   color:var(--blue);
