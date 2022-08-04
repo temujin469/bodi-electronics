@@ -56,7 +56,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     
   }
   html #header .fa-bars:before {
-    color: black !important;
+    color: var(--saaral) !important;
   }
 
   html #header .header-top {

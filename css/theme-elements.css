@@ -15384,11 +15384,7 @@ section.timeline .timeline-box .owl-carousel {
   position: relative;
   clear: both;
 }
-div.toggle {
-  border-top: 3px solid var(--blue) !important;
-  height: fit-content;
-  max-width: 500px;
-}
+
 .toggle .toggle {
   margin: 10px 0 0;
 }
@@ -15633,7 +15629,7 @@ small,
   font-size: 70%;
 }
 p {
-  line-height: 26px;
+  line-height: 18px;
 }
 p.featured {
   font-size: 1.6em;

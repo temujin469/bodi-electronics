@@ -1,0 +1,12 @@
+.primary-border-bottom {
+  border-bottom: 4px solid var(--blue);
+}
+
+.childs-has-border-bottom > div {
+  border-bottom: 2px solid var(--saaral);
+  padding-top: 20px;
+}
+
+div.active > a {
+  color: var(--blue);
+}

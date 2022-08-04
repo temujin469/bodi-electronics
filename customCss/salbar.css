@@ -5,6 +5,11 @@ section.toggle > .toggle-content > a:hover {
 .box-wrapper {
   padding:30px 0 30px 0;
 }
+div.toggle {
+  border-top: 4px solid var(--blue) !important;
+  height: fit-content;
+  max-width: 500px;
+}
 
 .box-wrapper > div.row:not(:last-child) {
   padding-bottom: 25px;

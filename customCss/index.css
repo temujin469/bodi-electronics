@@ -72,15 +72,6 @@
   color: #999;
 }
 
-/* .owl-carousel.nav-bottom .owl-nav button.owl-prev::before {
-  font-family: 'Font Awesome\ 5 Free';
-  content: "<";
-}
-.owl-carousel.nav-bottom .owl-nav button.owl-next::before {
-  font-family: 'Font Awesome\ 5 Free';
-  content: ">";
-} */
-
 @keyframes buttonAnimat {
   from {
     opacity: 0;
