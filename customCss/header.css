@@ -44,6 +44,10 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     left: 50%;
     transform: translate3d(-50%, 0, 0);
   }
+  
+  html #header.header-semi-transparent-light .header-body {
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.459) !important;
+  }
   #header .header-container #header-links {
     display: flex !important;
     justify-content: space-between;
@@ -51,8 +55,16 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     max-height: 64px;
     
   }
-  html:not(.sticky-header-active) #header.header-semi-transparent-light .header-body {
-    background-color: var(--blue) !important;
+  html #header .fa-bars:before {
+    color: black !important;
+  }
+
+  html #header .header-top {
+    background-color: var(--tsagaanSaaral);
+  }
+
+  html #header.header-semi-transparent-light .header-body {
+    background-color: var(--white) !important;
   }
 
   html.sticky-header-active #header .logo-column {
@@ -61,6 +73,11 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     min-height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  #header .header-nav-main:not(.header-nav-main-mobile-dark) nav>ul>li>a.active {
+    background-color: var(--blue) !important;
+    color: white;
   }
 }
 

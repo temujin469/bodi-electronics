@@ -107,40 +107,21 @@
                         <li
                           class="nav-item nav-item-borders pe-3 border-right header-nav-features"
                         >
-                          <a
-                            data-bs-toggle="modal"
-                            data-bs-target="#exampleModal"
-                          >
-                            <i class="fas fa-search header-nav-top-icon"></i>
-                          </a>
-                          <!-- Modal -->
                           <div
-                            class="modal fade"
-                            id="exampleModal"
-                            tabindex="-1"
-                            aria-labelledby="exampleModalLabel"
-                            aria-hidden="true"
+                            class="header-nav-features-search-reveal-container"
                           >
-                            <div class="modal-dialog modal-xl shadow">
-                              <div class="modal-content p-4 p-lg-5">
-                                <div class="input-group">
-                                  <span
-                                    class="input-group-text"
-                                    id="basic-addon1"
-                                  >
-                                    <i
-                                      class="fas fa-search header-nav-top-icon"
-                                    ></i>
-                                  </span>
-                                  <input
-                                    class="form-control"
-                                    placeholder="Хайх..."
-                                  />
-                                </div>
-                              </div>
+                            <div
+                              class="header-nav-feature header-nav-features-search header-nav-features-search-reveal d-inline-flex"
+                            >
+                              <a
+                                href="#"
+                                class="header-nav-features-search-show-icon d-inline-flex text-decoration-none"
+                                ><i
+                                  class="fas fa-search header-nav-top-icon"
+                                ></i
+                              ></a>
                             </div>
                           </div>
-                          <!-- Modal end -->
                         </li>
                         <li
                           class="nav-item nav-item-borders py-2 pe-0 dropdown"
@@ -196,10 +177,7 @@
                         <nav class="collapse header-mobile-border-top">
                           <ul class="nav nav-pills" id="mainNav">
                             <li>
-                              <a
-                                class="dropdown-item active"
-                                href="/salbar.html"
-                              >
+                              <a class="dropdown-item" href="/salbar.html">
                                 Салбар
                               </a>
                             </li>
@@ -321,7 +299,7 @@
 
                             <li class="dropdown dropdown-mega">
                               <a
-                                class="dropdown-item dropdown-toggle"
+                                class="dropdown-item dropdown-toggle active"
                                 href="/uilchilgee.html"
                               >
                                 Үйлчилгээ
@@ -449,6 +427,38 @@
                       </a>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav-features header-nav-features-no-border p-static">
+          <div
+            class="header-nav-feature header-nav-features-search header-nav-features-search-reveal header-nav-features-search-reveal-big-search header-nav-features-search-reveal-big-search-full"
+          >
+            <div class="container">
+              <div class="row h-100 d-flex">
+                <div class="col h-100 d-flex">
+                  <form
+                    role="search"
+                    class="d-flex h-100 w-100"
+                    action="page-search-results.html"
+                    method="get"
+                  >
+                    <div class="big-search-header input-group">
+                      <input
+                        class="form-control text-1"
+                        id="headerSearch"
+                        name="q"
+                        type="search"
+                        value=""
+                        placeholder="Хайх..."
+                      />
+                      <a href="#" class="header-nav-features-search-hide-icon"
+                        ><i class="fas fa-times header-nav-top-icon"></i
+                      ></a>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
