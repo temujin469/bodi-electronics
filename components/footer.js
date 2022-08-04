@@ -22,7 +22,7 @@ const footer = `
       <div class="col-lg-6 col-xl-3 footer-text p-0">
         <div><i class="fa-solid fa-location-dot"></i></div>
         <h5>
-          Чингисийн өргөн чөлөө-24, 1-р хороо, Парк Плэйс, 901тоот,
+          Чингисийн өргөн чөлөө-24, 1-р хороо, Парк Плэйс, 901 тоот,
           Сүхбаатар дүүрэг Улаанбаатар 14241, Монгол улс
         </h5>
       </div>
@@ -39,10 +39,10 @@ const footer = `
     </div>
     <div
       class="pb-md-5 pb-4 footer-links d-flex flex-column flex-md-row gap-3 gap-md-5 justify-content-between justify-content-lg-center w-100">
-      <a href="#" class="">Бидний тухай</a>
-      <a href="#" class="">Хүний нөөц</a>
-      <a href="#" class="">Арга хэмжээ</a>
-      <a href="#" class="">Санал хүсэлт</a>
+      <a href="/about.html" class="">Бидний тухай</a>
+      <a href="/hvnii-nuuts.html" class="">Хүний нөөц</a>
+      <a href="/arga-hemjee.html" class="">Арга хэмжээ</a>
+      <a href="/sanal-hvselt.html" class="">Санал хүсэлт</a>
     </div>
   </div>
   <div class="p-3 footer-bottom">

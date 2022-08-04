@@ -1,0 +1,14 @@
+form button {
+  background-color: var(--blue);
+  border: 3px solid transparent;
+  width: fit-content;
+  color: white;
+  padding: 13px 70px 13px 70px;
+  border-radius: 70px;
+}
+
+form button:hover {
+  background-color: var(--white);
+  border: 3px solid var(--blue);
+  color: var(--blue);
+}

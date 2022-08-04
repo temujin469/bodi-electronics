@@ -13,6 +13,18 @@
   --lg:992px;
 }
 
+/* ======= */
+div.page-track {
+  display: flex;
+  align-items: baseline;
+  gap:5px;
+}
+
+div.page-track a,.page-track i {
+  color:var(--blue);
+  text-transform: uppercase;
+}
+/* ========= */
 
 @media (max-width:764px) {
   html > body > .body > .main h3 {

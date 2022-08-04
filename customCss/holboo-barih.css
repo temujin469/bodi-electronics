@@ -1,0 +1,36 @@
+
+
+.contact-row {
+  border-bottom: 2px solid var(--saaral);
+  border-top: 2px solid var(--saaral);
+  padding:40px 0 40px 0;
+}
+
+/* section h3 {
+  border-bottom: 2px solid var(--textColor);
+} */
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.box p {
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+.box .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color:var(--tsagaanSaaral) ;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.box .icon-box > i {
+  color: var(--blue);
+  font-size: 40px;
+}
