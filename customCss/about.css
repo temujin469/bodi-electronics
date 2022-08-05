@@ -5,3 +5,64 @@
     padding: 0 100px 0 100px;
   }
 } */
+
+i.fa-check {
+  background-color: var(--blue);
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  color: var(--white);
+}
+.center {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-with-icon {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+.text-with-icon p {
+  margin: 0;
+}
+
+.counter label {
+  color: var(--blue);
+}
+
+.counters >div {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+.counters >div > .counter {
+  padding:0;
+  max-width: 250px !important;
+}
+
+.border-y {
+  border-bottom: 3px solid rgba(103, 194, 255, 0.342);
+  border-top:3px solid rgba(103, 194, 255, 0.342);
+  padding: 70px 0 70px 0;
+}
+
+.clr-blue {
+  color: var(--blue);
+}
+
+.toggle-title, .toggle-title.active {
+  color:var(--textColor) !important;
+}
+
+.toggle.toggle-minimal .toggle:not(:last-child) {
+  border-bottom: 2px solid var(--saaral);
+}
+
+.toggle.toggle-minimal .toggle {
+  padding:25px 1px 25px 1px ;
+}

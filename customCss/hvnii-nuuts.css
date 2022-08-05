@@ -1,0 +1,138 @@
+.heading {
+  background-color: var(--blue);
+  width: fit-content;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 200 !important;
+  text-transform: none;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html>body div.main span {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.heading i {
+  color: white;
+  font-size: 36px;
+  padding-right: 15px;
+}
+
+div.options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--tsagaanSaaral);
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+
+button.option:hover {
+  box-shadow: -1px 1px 4px 0 var(--saaral);
+}
+
+button.option p {
+  text-align: start;
+  flex: 1;
+  margin: 0;
+  padding: 20px;
+  border-right: 2px solid var(--saaral) !important;
+
+}
+
+button.option > i {
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--saaral);
+  padding:20px ;
+}
+
+button.option.active > i {
+  justify-content: center;
+  color: var(--blue);
+  transform: rotate(180deg);
+}
+
+button.option.active > p {
+  color: var(--blue);
+}
+
+button.option.active  {
+  color: var(--blue);
+}
+
+.tabcontent {
+  display: none;
+  margin: 40px 0 30px 0;
+}
+
+div.date {
+  display: flex;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid var(--saaral);
+}
+
+@media (max-width:500px) {
+  div.date {
+    justify-content: center;
+  }
+}
+
+div.date span {
+  font-size: 20px;
+  color: black;
+}
+
+div.date > p:first-child{
+  border-right: 1px solid var(--saaral);
+}
+
+div.date > p {
+  padding:20px;
+}
+
+div.document > div {
+  margin: 40px 0 0 0;
+}
+
+div.document button.submit-btn {
+  background-color: var(--blue);
+  padding: 15px 50px 15px 50px;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+div.document button.submit-btn:hover {
+  background-color: var(--white);
+  border:3px solid var(--blue);
+}
+
+div.document button.submit-btn:hover > a {
+  color: var(--blue);
+}
+
+div.document button.submit-btn a {
+  color: var(--white);
+}
+
+.clr-blue {
+  color: var(--blue);
+}
+

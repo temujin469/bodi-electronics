@@ -17,7 +17,7 @@ body {
   color: var(--textColor);
   font-family:'Manrope', sans-serif !important;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 20px;
   margin: 0;
 }
 body a {

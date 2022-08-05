@@ -7,6 +7,10 @@
   padding-top: 20px;
 }
 
+p.date {
+  margin-top: 18px;
+}
+
 div.active > a {
   color: var(--blue);
 }

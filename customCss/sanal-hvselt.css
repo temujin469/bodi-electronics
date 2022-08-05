@@ -12,3 +12,7 @@ form button:hover {
   border: 3px solid var(--blue);
   color: var(--blue);
 }
+
+.form-check .form-check-label {
+  font-size: larger;
+}
