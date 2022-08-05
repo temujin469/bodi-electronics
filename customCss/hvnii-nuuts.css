@@ -4,15 +4,16 @@
   color: white;
   padding: 15px;
   font-size: 20px;
-  font-weight: 200 !important;
+  font-weight: 500 !important;
   text-transform: none;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 html>body div.main span {
   font-family: Arial, Helvetica, sans-serif !important;
@@ -110,6 +111,19 @@ div.date > p {
 
 div.document > div {
   margin: 40px 0 0 0;
+}
+
+div.document ul {
+  list-style: none;
+}
+
+div.document ul> li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--blue); /* Change the color */
+  font-weight:bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
 div.document button.submit-btn {

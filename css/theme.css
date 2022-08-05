@@ -131,8 +131,6 @@ pre {
 #header .header-row {
   display: flex;
   align-items: center;
-  /* align-self: stretch; */
-  justify-content: space-between !important;
   max-height: 100%;
 }
 

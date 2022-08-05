@@ -5,6 +5,23 @@
   section.section-3 article {
     height: 445px;
   }
+  section.video {
+    margin-bottom: 150px;
+  }
+  body > .body > .main {
+    margin-bottom: 150px;
+  }
+  section.brands {
+    margin-top: 100px !important;
+    margin-bottom: 80px !important;
+  }
+  section.brands .owl-carousel img {
+    width: 300px !important;
+  }
+}
+
+body > .body > .main {
+  padding-top:56px  !important;
 }
 
 .owl-carousel.dots-inside .owl-dots {
@@ -51,9 +68,6 @@
   color: var(--ulbarShar);
 }
 
-/* .tom-carousel .owl-carousel .owl-nav button {
-  box-shadow: none !important;
-} */
 
 .owl-carousel.nav-bottom .owl-nav {
   position: static;
@@ -120,10 +134,10 @@ section.section-2 article>.row {
   justify-content: center;
 }
 
-section.section-2 article {
+/* section.section-2 article {
   width: 148px;
   height: 195px;
-}
+} */
 
 section.section-2 .owl-carousel.owl-drag .owl-item {
   -ms-touch-action: pan-y;
@@ -148,13 +162,8 @@ section.section-2 .owl-carousel .owl-stage {
   touch-action: manipulation;
 }
 
-/* tom delgets deer */
-section.section-2 .owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
-  display: block;
-}
 
-/* jijig delgets deer */
+
 section.section-2 .owl-carousel .owl-dots:not(.disabled),
 section.section-2 .owl-carousel .owl-nav:not(.disabled) {
   display: none;
@@ -168,8 +177,10 @@ section.section-3 article:hover {
 
 section.section-3 article img {
   height: 276px;
-  object-fit: cover;
+  object-fit: cover !important;
 }
+
+
 
 section.section-3 article:hover a {
   color: var(--blue) !important;
@@ -184,15 +195,18 @@ section.section-3 .read-more-button:hover h4 {
   text-shadow: 1px 1px 3px gray;
 }
 
-/*========= section-4 ========= */
-section.section-4 .owl-carousel img {
-  border: 1.5px solid rgb(212, 212, 212);
+/*========= brands ========= */
+section.brands .owl-carousel img {
   padding: 5px;
   margin: 0;
-  object-fit: contain;
+  width: 140px;
+  object-fit: contain !important;
+}
+section.brands {
+  margin-bottom:50px;
 }
 
-section.section-4 .owl-carousel .owl-stage {
+section.brands .owl-carousel .owl-stage {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -201,10 +215,20 @@ section.section-4 .owl-carousel .owl-stage {
   touch-action: manipulation;
 }
 
-section.section-4 .owl-carousel .owl-stage .owl-item {
-  padding: 10px;
+section.brands .owl-carousel .owl-dots:not(.disabled), .owl-carousel .owl-nav:not(.disabled) {
+  display: none !important;
 }
 
-section.section-4 .owl-carousel img:hover {
+section.brands .owl-carousel .owl-stage .owl-item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+section.brands .owl-carousel img:hover {
   box-shadow: 1px 1px 6px gray;
 }
+
+
+/* ===video === */
+

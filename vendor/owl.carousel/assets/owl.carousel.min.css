@@ -62,10 +62,10 @@
 }
 
 
-.owl-carousel .owl-dots.disabled,
+/* .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
   display: none;
-}
+} */
 
 .owl-carousel .owl-dots:not(.disabled),
 .owl-carousel .owl-nav:not(.disabled) {

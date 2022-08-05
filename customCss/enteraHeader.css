@@ -1,0 +1,15 @@
+#header div.header-top {
+  background-color: #1F1F1F;
+}
+
+#header div.header-top * {
+  color: var(--white) !important;
+}
+
+#header div.header-top .border-right {
+  border-right: 1px solid white !important;
+}
+
+.fa-search.header-nav-top-icon {
+  font-size: 15px !important;
+}

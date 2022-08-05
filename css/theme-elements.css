@@ -3699,7 +3699,6 @@ html.sticky-header-active
 .owl-carousel.nav-dark:not(.nav-style-1):not(.nav-style-2):not(.nav-style-3):not(.show-nav-title):not(.nav-arrows-1)
   .owl-nav
   .owl-prev {
-  background-color: #262a2f !important;
   border-color: #262a2f #262a2f #2c3237 !important;
   color: #fff !important;
 }

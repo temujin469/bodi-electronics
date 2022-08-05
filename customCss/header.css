@@ -125,10 +125,10 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 #header .header-top {
   border-bottom: none;
   background-color: white;
-  min-height: 47px;
+  /* min-height: 47px; */
 }
 #header .header-top .header-row a {
-  color: var(--textColor) !important;
+  color: var(--textColor);
 }
 
 #header .header-body {
