@@ -219,6 +219,12 @@ section.brands .owl-carousel .owl-dots:not(.disabled), .owl-carousel .owl-nav:no
   display: none !important;
 }
 
+section.brands .owl-carousel .owl-dots, .owl-carousel .owl-nav{
+  display: none !important;
+}
+
+
+
 section.brands .owl-carousel .owl-stage .owl-item {
   padding: 10px;
   display: flex;

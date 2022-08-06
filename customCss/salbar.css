@@ -11,6 +11,15 @@ div.toggle {
   max-width: 500px;
 }
 
+.toggle.active > label:before, .toggle.active > .toggle-title:before,
+.toggle > label:before, .toggle > .toggle-title:before {
+  content: none;
+}
+
+.toggle:not(.active)>.toggle-content {
+  display: flex !important;
+}
+
 .box-wrapper > div.row:not(:last-child) {
   padding-bottom: 25px;
 }

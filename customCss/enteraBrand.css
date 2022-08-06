@@ -8,9 +8,7 @@
   section.video {
     margin-bottom: 150px;
   }
-  body > .body > .main {
-    margin-bottom: 150px;
-  }
+  
   section.brands {
     margin-top: 100px !important;
     margin-bottom: 80px !important;
@@ -30,9 +28,24 @@
 
 }
 
+img.cover-photo {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+
+img.brand-logo {
+  position: absolute;
+  top:90px;
+  left: 4px;
+  width: 200px;
+  object-fit: contain;
+
+}
+
 
 @media (min-width:400px) {
-  #section-top img {
+  #section-top img.cover-photo {
     height: 220px;
   }
 }

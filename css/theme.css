@@ -5427,7 +5427,7 @@ html.sticky-header-enabled.sticky-header-active
     opacity: 1;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
   
   #header .header-nav-main:before {
     content: "";
@@ -9953,7 +9953,7 @@ a.text-light:hover {
 .min-width-0 {
   min-width: 0 !important;
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .container:not(.container-bs):not(.container-xl-custom):not(.container-xxl-custom) {
     max-width: 1400px;
   }
@@ -9965,7 +9965,7 @@ a.text-light:hover {
   .container-xxl-custom {
     max-width: 1630px;
   }
-}
+} */
 [class*="fluid-col-"] {
   position: relative;
 }

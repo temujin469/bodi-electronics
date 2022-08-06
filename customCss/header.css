@@ -36,6 +36,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 
 
 
+
+
 @media (max-width: 991px) {
   #header .header-nav-main {
     position: absolute;
@@ -120,6 +122,16 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   .dropdown-menu .dropdown-mega-content .row div:not(:last-child) {
     border-right: 1px solid var(--blue);
   }
+
+  div.dropdown-mega-content > div.row > div {
+    padding:0 20px 0 20px !important;
+    /* text-align: center; */
+  }
+
+  /* div.dropdown-mega-content > div.row {
+    padding-left:30px !important;
+    padding-right:30px !important;
+  } */
 }
 
 #header .header-top {
