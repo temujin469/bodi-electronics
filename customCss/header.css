@@ -106,7 +106,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   }
 
   #header .header-row2 .logo img {
-    width: 130px !important;
+    width: 110px !important;
+    object-fit: contain;
   }
 
   #header .header-nav.header-nav-links nav > ul > li > a {
@@ -132,6 +133,14 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     padding-left:30px !important;
     padding-right:30px !important;
   } */
+
+  html.sticky-header-active #header.header-semi-transparent-light .header-body {
+    background: linear-gradient(
+    0deg,
+    rgba(35, 152, 227, 1) 0%,
+    rgba(41, 105, 220, 1) 94%
+  );
+  }
 }
 
 #header .header-top {
@@ -146,7 +155,11 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 #header .header-body {
   display: flex;
   flex-direction: column;
-  background-color: var(--blue) !important;
+  /* background: linear-gradient(
+    0deg,
+    rgba(35, 152, 227, 1) 0%,
+    rgba(41, 105, 220, 1) 94%
+  ); */
   transition: min-height 0.3s ease;
   width: 100%;
   border-top: none;

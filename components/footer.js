@@ -2,11 +2,13 @@ const footerSection = document.getElementById('footer-section');
 
 const footer = `
 <!-- footer start -->
-<footer id="footer" class="border-top-0 mt-0">
+<footer id="footer" class="border-top-0 pt-0">
   <div class="container-fluid py-4 px-md-5">
-    <div class="row py-md-5 gap-4 gap-lg-0 p-0">
+    <div class="row py-md-5 p-0">
       <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
-        <img class="logo" src="./logo/english bodi white logo.png" />
+        <a href="/index.html">
+          <img class="logo" src="./logo/english bodi white logo.png" />
+        </a>
       </div>
       <div class="col-lg-6 col-xl-3 footer-text p-0">
         <i class="fa-solid fa-phone"></i>
@@ -28,9 +30,9 @@ const footer = `
       </div>
     </div>
   </div>
-  <div class="container d-flex justify-content-lg-center flex-column">
+  <div class="container-fluid d-flex justify-content-lg-center flex-column">
     <div
-      class="pb-4 pb-md-5 social-links d-flex flex-row gap-md-5 justify-content-between justify-content-lg-center w-100">
+      class="py-4 pb-md-5 social-links d-flex flex-row gap-md-5 justify-content-between justify-content-lg-center w-100">
       <i class="fa-brands fa-facebook-f"></i>
       <i class="fa-brands fa-twitter"></i>
       <i class="fa-brands fa-instagram"></i>

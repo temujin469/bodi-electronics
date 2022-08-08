@@ -6,7 +6,9 @@ const footer = `
   <div class="container-fluid py-4 px-md-5">
     <div class="row py-md-5 gap-4 gap-lg-0 p-0">
       <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
+      <a href="/entera/index.html">
         <img class="logo" src="../logo/entera logo.png" />
+      </a>
       </div>
       <div class="col-lg-6 col-xl-3 footer-text p-0">
         <i class="fa-solid fa-phone"></i>
