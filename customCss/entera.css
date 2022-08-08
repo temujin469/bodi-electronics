@@ -4,6 +4,7 @@
   }
   section.section-3 article {
     height: 445px;
+    overflow: hidden;
   }
   section.video {
     margin-bottom: 150px;
@@ -19,6 +20,15 @@
     width: 300px !important;
   }
 }
+
+section.section-3 article {
+  height: 445px;
+  overflow: hidden;
+}
+section.section-3 .row > div {
+  max-width:440px;
+}
+
 
 body > .body > .main {
   padding-top:56px  !important;

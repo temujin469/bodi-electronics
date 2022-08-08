@@ -110,6 +110,7 @@ section.section-2 h5 {
 
 section.section-2 article>.row img {
   padding-bottom: 10px;
+  width: 100% !important;
 }
 
 section.section-2 article:hover h5 {
@@ -166,9 +167,10 @@ section.section-3 article:hover {
   color: var(--blue);
 }
 
-section.section-3 article img {
+section article img {
   height: 276px;
   object-fit: cover;
+  width: 100%;
 }
 
 section.section-3 article:hover a {

@@ -1,9 +1,10 @@
-@media (min-width: 991px) {
+@media (min-width: 990px) {
   .owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .carsoul-content {
     max-width: 60%;
   }
   section.section-3 article {
     height: 445px;
+    overflow: hidden;
   }
   section.video {
     margin-bottom: 150px;
@@ -26,28 +27,37 @@
     height: 600px !important;
   }
 
+  img.brand-logo {
+    width: 200px !important;
+  }
+
 }
+
+
 
 img.cover-photo {
   max-height: 500px;
   object-fit: cover;
 }
 
-
 img.brand-logo {
   position: absolute;
   top:90px;
   left: 4px;
-  width: 200px;
+  width: 100px;
   object-fit: contain;
-
 }
+
+
+
 
 
 @media (min-width:400px) {
   #section-top img.cover-photo {
     height: 220px;
   }
+
+  
 }
 
 #section-top img {
