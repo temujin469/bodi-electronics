@@ -1,0 +1,80 @@
+
+section.products .owl-theme .owl-nav > button {
+  position: absolute;
+  top: 35%;
+  background-color: rgba(0, 0, 0, 0.247) !important;
+  width: 45px !important;
+  border-radius: 50%;
+  height: 45px !important;
+}
+
+section.products .owl-theme .owl-nav > .owl-prev {
+  left: 2px;
+}
+
+section.products .owl-theme .owl-nav > .owl-next {
+  right: 2px;
+}
+
+section.products {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* @media (max-width: 900px) {
+  section.products .owl-carousel .owl-nav {
+    display: none !important;
+  }
+} */
+
+.owl-carousel .owl-nav.disabled {
+  display: none !important;
+}
+
+body > .body > .main {
+  padding-top: 56px !important;
+}
+
+/* ========= products ========= */
+section.products .products-row {
+  margin-bottom: 20px;
+}
+
+section .product .image-container {
+  margin: 0;
+  border-radius: 20px;
+  object-fit: cover !important;
+  background-color: var(--tsagaanSaaral);
+  overflow: hidden;
+}
+
+
+/* product */
+p.name,
+p.price {
+  font-weight: 600 !important;
+}
+
+section.products .product .name {
+  margin: 10px 0 5px 0;
+}
+
+section.products .product .price {
+  margin: 0;
+}
+
+
+
+section.products .owl-theme .owl-nav > .owl-next::after {
+  font-family: "Font Awesome\ 6 Free";
+  content: "\f054";
+  font-weight: 700;
+  color: var(--textColor);
+}
+section.products .owl-theme .owl-nav > .owl-prev::after {
+  font-family: "Font Awesome\ 6 Free";
+  content: "\f053";
+  font-weight: 700;
+  color: var(--textColor);
+  color: var(--textColor);
+}

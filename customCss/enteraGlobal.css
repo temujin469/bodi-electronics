@@ -1,0 +1,33 @@
+body > .body > .main {
+ padding-top: 57px !important;
+}
+
+.product .name {
+  font-size: 20px;
+}
+
+.product .image-container {
+  background-color: var(--tsagaanSaaral);
+  margin-bottom: 10px;
+}
+
+.product .name {
+  margin: 10px 0 5px 0 ;
+}
+
+html > body > .body > .main h3 {
+  font-size: 25px ;
+}
+
+.product .price,.product .name {
+  font-weight: 600;
+}
+
+section.products .product img.image {
+  padding: 30px;
+  transition: 0.1s ease-in-out;
+}
+section.products .product img:hover {
+  scale: 1.2;
+}
+

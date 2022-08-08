@@ -3143,17 +3143,11 @@ html.sticky-header-active
 .owl-carousel.show-nav-hover:hover .owl-nav button.owl-next {
   right: -40px;
 }
-.owl-carousel.show-nav-title .owl-nav {
-  top: 0;
-  right: 0;
-  margin-top: -25px;
-  width: auto;
-}
+
 .owl-carousel.show-nav-title .owl-nav button[class*="owl-"],
 .owl-carousel.show-nav-title .owl-nav button[class*="owl-"]:hover,
 .owl-carousel.show-nav-title .owl-nav button[class*="owl-"]:active {
   font-size: 18px;
-  background: 0 0 !important;
   width: 18px;
 }
 .owl-carousel.show-nav-title .owl-nav button.owl-prev {

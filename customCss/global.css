@@ -28,9 +28,8 @@ div.page-track a,.page-track i {
 
 @media (max-width:764px) {
   html > body > .body > .main h3 {
-    font-size: 17px ;
+    font-size: 19px ;
   }
-
 }
 section article img {
   height: 276px;
@@ -66,4 +65,8 @@ body > .body > .main {
 
 div.row-text-padding > * {
   padding: 5px 27px 5px 27px !important;
+}
+
+section.news .row > div {
+  max-width:440px;
 }

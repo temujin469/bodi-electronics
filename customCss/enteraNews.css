@@ -1,0 +1,27 @@
+section.news h5 {
+  padding-top: 10px;
+  text-align: center;
+  border-top: 2px solid rgb(56, 56, 56);
+}
+
+section.news article>.row img {
+  padding-bottom: 10px;
+  height:250px;
+
+}
+
+section.news article:hover h5 {
+  color: var(--blue);
+}
+
+section.news article>.row {
+  justify-content: center;
+}
+
+section.news article {
+  height:400px;
+}
+
+.col-lg-4 {
+  padding: 0 20px 0 20px;
+}

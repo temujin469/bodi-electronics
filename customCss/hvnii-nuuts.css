@@ -133,6 +133,12 @@ div.document button.submit-btn {
   border: 3px solid transparent;
 }
 
+@media (max-width:700px) {
+  div.document button.submit-btn {
+    width: 100%;
+  }
+}
+
 div.document button.submit-btn:hover {
   background-color: var(--white);
   border:3px solid var(--blue);
