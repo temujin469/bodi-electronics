@@ -11904,6 +11904,10 @@ html.boxed .nav-secondary.sticky-active {
   height: 50px;
   border: 3px solid #ccc;
 }
+
+html ,html * {
+  scroll-behavior: smooth !important;
+}
 html .scroll-to-top {
   transition: opacity 0.3s;
   background: #404040;
