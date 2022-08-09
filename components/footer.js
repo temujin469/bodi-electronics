@@ -23,7 +23,7 @@ const footer = `
       </div>
       <div class="col-lg-6 col-xl-3 footer-text p-0 ps-xl-3">
         <div><i class="fa-solid fa-location-dot"></i></div>
-        <h5>
+        <h5 class="pt-3">
           Чингисийн өргөн чөлөө-24, 1-р хороо, Парк Плэйс, 901 тоот,
           Сүхбаатар дүүрэг Улаанбаатар 14241, Монгол улс
         </h5>
