@@ -3,8 +3,20 @@
     max-width: 60%;
   }
   section.section-3 article {
-    height: 445px;
+    height:390px;
+    overflow: hidden;
   }
+}
+
+@media (min-width:1400px) {
+  section.section-3 article {
+    height:370px;
+    overflow: hidden;
+  }
+}
+
+section.section-3 article h4 a {
+  font-size: 16px;
 }
 
 .owl-carousel.dots-inside .owl-dots {
@@ -122,8 +134,13 @@ section.section-2 article>.row {
 }
 
 section.section-2 article {
-  width: 148px;
+  width: 133px;
   height: 195px;
+}
+@media (min-width:1500px) {
+  section.section-2 article {
+    width: 150px;
+  }
 }
 
 section.section-2 .owl-carousel.owl-drag .owl-item {
@@ -168,7 +185,7 @@ section.section-3 article:hover {
 }
 
 section article img {
-  height: 276px;
+  height: 230px;
   object-fit: cover;
   width: 100%;
 }
@@ -189,7 +206,7 @@ section.section-3 .read-more-button:hover h4 {
 /*========= section-4 ========= */
 section.section-4 .owl-carousel img {
   border: 1.5px solid rgb(212, 212, 212);
-  padding: 5px;
+  padding: 25px;
   margin: 0;
   object-fit: contain;
 }
