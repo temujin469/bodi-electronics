@@ -90,3 +90,28 @@
     width: 280px;
   }
 }
+
+#footer .footer-bottom {
+  background-color:rgb(31, 97, 172) ;
+}
+
+#footer .footer-bottom > div {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+#footer .footer-bottom img {
+  width: 70px;
+  opacity: 0.5;
+  object-fit: contain;
+}
+
+#footer .footer-bottom p {
+  color: white;
+  opacity: 0.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+

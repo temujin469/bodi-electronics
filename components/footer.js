@@ -1,4 +1,4 @@
-const footerSection = document.getElementById('footer-section');
+const footerSection = document.getElementById("footer-section");
 
 const footer = `
 <!-- footer start -->
@@ -48,9 +48,12 @@ const footer = `
     </div>
   </div>
   <div class="p-3 footer-bottom">
-    <p class="text-center text-light opacity-50 fw-light m-0">
-      Бүх эрх хуулиар хамгаалагдсан 2022. Бодь-Электроникс ХХК
-    </p>
+    <div>
+      <p class="m-0">
+      © 2022 Бодь Электроникс ХХК
+      </p>
+      <img src="/logo/develop.png">
+    </div>
   </div>
 </footer>
 `;
