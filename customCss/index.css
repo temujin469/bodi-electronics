@@ -119,12 +119,12 @@ section.section-2 article>.row {
 }
 
 section.section-2 article {
-  width: 133px;
+  width: 125px;
   height: 195px;
 }
-@media (min-width:1500px) {
+@media (min-width:760px) {
   section.section-2 article {
-    width: 150px;
+    width: 133px;
   }
 }
 
