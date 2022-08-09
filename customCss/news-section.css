@@ -1,0 +1,43 @@
+/*========= news ========= */
+
+@media (min-width: 991px) {
+  section.news article {
+    height:390px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width:1400px) {
+  section.news article {
+    height:370px;
+    overflow: hidden;
+  }
+}
+
+section.news article h4 a {
+  font-size: 16px;
+}
+
+section.news article:hover {
+  box-shadow: 1px 1px 6px gray;
+  color: var(--blue);
+}
+
+section.news article img {
+  height: 230px;
+  object-fit: cover;
+  width: 100%;
+}
+
+section.news article:hover a {
+  color: var(--blue) !important;
+}
+
+section.news .read-more-button:hover i.fa-arrow-right {
+  color: var(--blue) !important;
+  text-shadow: 1px 1px 3px gray;
+}
+
+section.news .read-more-button:hover h4 {
+  text-shadow: 1px 1px 3px gray;
+}

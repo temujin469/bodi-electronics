@@ -2,10 +2,6 @@
   .owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .carsoul-content {
     max-width: 60%;
   }
-  section.section-3 article {
-    height: 445px;
-    overflow: hidden;
-  }
   section.video {
     margin-bottom: 150px;
   }
@@ -175,32 +171,6 @@ section.section-2 .owl-carousel .owl-stage {
 section.section-2 .owl-carousel .owl-dots:not(.disabled),
 section.section-2 .owl-carousel .owl-nav:not(.disabled) {
   display: none;
-}
-
-/*========= section-3 ========= */
-section.section-3 article:hover {
-  box-shadow: 1px 1px 6px gray;
-  color: var(--blue);
-}
-
-section.section-3 article img {
-  height: 276px;
-  object-fit: cover !important;
-}
-
-
-
-section.section-3 article:hover a {
-  color: var(--blue) !important;
-}
-
-section.section-3 .read-more-button:hover i.fa-arrow-right {
-  color: var(--blue) !important;
-  text-shadow: 1px 1px 3px gray;
-}
-
-section.section-3 .read-more-button:hover h4 {
-  text-shadow: 1px 1px 3px gray;
 }
 
 /*========= brands ========= */

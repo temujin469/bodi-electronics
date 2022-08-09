@@ -2,21 +2,6 @@
   .owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .carsoul-content {
     max-width: 60%;
   }
-  section.section-3 article {
-    height:390px;
-    overflow: hidden;
-  }
-}
-
-@media (min-width:1400px) {
-  section.section-3 article {
-    height:370px;
-    overflow: hidden;
-  }
-}
-
-section.section-3 article h4 a {
-  font-size: 16px;
 }
 
 .owl-carousel.dots-inside .owl-dots {
@@ -178,30 +163,6 @@ section.section-2 .owl-carousel .owl-nav:not(.disabled) {
   display: none;
 }
 
-/*========= section-3 ========= */
-section.section-3 article:hover {
-  box-shadow: 1px 1px 6px gray;
-  color: var(--blue);
-}
-
-section article img {
-  height: 230px;
-  object-fit: cover;
-  width: 100%;
-}
-
-section.section-3 article:hover a {
-  color: var(--blue) !important;
-}
-
-section.section-3 .read-more-button:hover i.fa-arrow-right {
-  color: var(--blue) !important;
-  text-shadow: 1px 1px 3px gray;
-}
-
-section.section-3 .read-more-button:hover h4 {
-  text-shadow: 1px 1px 3px gray;
-}
 
 /*========= section-4 ========= */
 section.section-4 .owl-carousel img {
