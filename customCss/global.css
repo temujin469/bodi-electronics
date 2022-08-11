@@ -17,6 +17,10 @@ html > body > .body > .main h3 {
   line-height: 33px;
 }
 
+html > body > .body > .main p {
+  line-height: 25px;
+}
+
 /* ======= */
 div.page-track {
   display: flex;
