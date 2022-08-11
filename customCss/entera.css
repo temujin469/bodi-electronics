@@ -193,11 +193,11 @@ section.brands .owl-carousel .owl-stage {
   touch-action: manipulation;
 }
 
-section.brands .owl-carousel .owl-dots:not(.disabled), .owl-carousel .owl-nav:not(.disabled) {
+section.brands .owl-carousel .owl-dots:not(.disabled),section.brands .owl-carousel .owl-nav:not(.disabled) {
   display: none !important;
 }
 
-section.brands .owl-carousel .owl-dots, .owl-carousel .owl-nav{
+section.brands .owl-carousel .owl-dots, section.branda .owl-carousel .owl-nav{
   display: none !important;
 }
 
