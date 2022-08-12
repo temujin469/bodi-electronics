@@ -7,7 +7,7 @@ const footer = `
     <div class="row py-md-5 p-0">
       <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
         <a href="/index.html">
-          <img class="logo" src="./logo/english bodi white logo.png" />
+          <img class="logo" src="../logo/bodi electronics  tsagaan.png" />
         </a>
       </div>
       <div class="col-lg-6 col-xl-3 footer-text p-0 ps-xl-5">
@@ -42,7 +42,7 @@ const footer = `
     <div
       class="pb-md-5 pb-4 footer-links d-flex flex-column flex-md-row gap-3 gap-md-5 justify-content-between justify-content-lg-center w-100">
       <a href="/about.html" class="">Бидний тухай</a>
-      <a href="/hvnii-nuuts.html" class="">Хүний нөөц</a>
+      <a href="/hvnii-nuuts.html" class="">Нээлттэй ажлийн байр</a>
       <a href="/arga-hemjee.html" class="">Арга хэмжээ</a>
       <a href="/sanal-hvselt.html" class="">Санал хүсэлт</a>
     </div>

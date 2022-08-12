@@ -32,12 +32,18 @@ section.news article img {
 section.news article:hover a {
   color: var(--blue) !important;
 }
+section.news .read-more-button h4 {
+  font-size: 16px !important;
+}
 
 section.news .read-more-button:hover i.fa-arrow-right {
   color: var(--blue) !important;
-  text-shadow: 1px 1px 3px gray;
+}
+
+section.news .read-more-button i.fa-arrow-right {
+  font-size: 18px !important;
 }
 
 section.news .read-more-button:hover h4 {
-  text-shadow: 1px 1px 3px gray;
+  color: var(--blue) !important;
 }

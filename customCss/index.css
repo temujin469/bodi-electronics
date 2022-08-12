@@ -61,8 +61,8 @@
 
 .owl-carousel.rounded-nav .owl-nav button[class*="owl-"] {
   padding: 3px 7px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   background: 0 0;
   border: 1px solid #999;
@@ -86,7 +86,7 @@
   background-color: transparent;
   border: 2px solid white;
   color: white;
-  font-size: larger;
+  font-size:15px;
   opacity: 1;
   animation-name: buttonAnimat;
   animation-duration: 2s;
@@ -102,7 +102,7 @@
 section.section-2 h5 {
   padding-top: 10px;
   text-align: center;
-  border-top: 2px solid rgb(56, 56, 56);
+  border-top: 0.1px solid var(--saaral);
 }
 
 section.section-2 article>.row img {
@@ -124,7 +124,7 @@ section.section-2 article {
 }
 @media (min-width:760px) {
   section.section-2 article {
-    width: 133px;
+    width: 113px;
   }
 }
 
@@ -164,27 +164,3 @@ section.section-2 .owl-carousel .owl-nav:not(.disabled) {
 }
 
 
-/*========= section-4 ========= */
-section.section-4 .owl-carousel img {
-  border: 1.5px solid rgb(212, 212, 212);
-  padding: 25px;
-  margin: 0;
-  object-fit: contain;
-}
-
-section.section-4 .owl-carousel .owl-stage {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  -ms-touch-action: pan-Y;
-  touch-action: manipulation;
-}
-
-section.section-4 .owl-carousel .owl-stage .owl-item {
-  padding: 10px;
-}
-
-section.section-4 .owl-carousel img:hover {
-  box-shadow: 1px 1px 6px gray;
-}

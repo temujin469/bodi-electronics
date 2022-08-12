@@ -3,8 +3,9 @@
   --white: #fff;
   --black:#000;
   --tsaiwarBlue:#2398e3;
-  --transColor: #e4e4e457;
+  --transColor: rgba(56, 63, 70, 0.253);
   --saaral:rgb(179, 179, 179);
+  --gray:#383F46;
   --tsagaanSaaral:rgb(238, 238, 238);
   --textColor: rgb(42, 42, 42);
   --ulbarShar: #f16122;

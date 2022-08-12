@@ -119,3 +119,7 @@ div.toggle {
   color: var(--blue) !important;
 }
 
+
+.toggle-content > a {
+  border-bottom: 1px solid var(--saaral);
+}

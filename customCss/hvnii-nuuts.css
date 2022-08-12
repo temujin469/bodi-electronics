@@ -50,6 +50,7 @@ button.option p {
   text-align: start;
   flex: 1;
   margin: 0;
+  font-size: 20px;
   padding: 20px;
   border-right: 2px solid var(--saaral) !important;
 
@@ -97,7 +98,7 @@ div.date {
 }
 
 div.date span {
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 }
 
@@ -111,6 +112,10 @@ div.date > p {
 
 div.document > div {
   margin: 40px 0 0 0;
+}
+
+div.document p ,div.document li,div.document a {
+  font-size: 16px;
 }
 
 div.document ul {

@@ -63,6 +63,7 @@
     <!-- ========= Custom CSS ======== -->
     <link rel="stylesheet" href="customCss/global.css" />
     <link rel="stylesheet" href="customCss/index.css" />
+    <link rel="stylesheet" href="customCss/tvnshlel-section.css" />
     <link rel="stylesheet" href="customCss/news-section.css" />
     <link rel="stylesheet" href="customCss/header.css" />
     <link rel="stylesheet" href="customCss/footer.css" />
@@ -78,12 +79,18 @@
 
     <!-- index page feature -->
     <style>
-      @media (min-width: 991px) {
-        html:not(.sticky-header-active)
-          #header.header-semi-transparent-light
-          .header-body {
-          background-color: var(--transColor) !important;
-        }
+      html:not(.sticky-header-active)
+        #header.header-semi-transparent-light
+        .header-body {
+        background-color: var(--transColor) !important;
+      }
+
+      html.sticky-header-active #header .header-row2 {
+        background: #383f46 !important;
+      }
+
+      html:not(.sticky-header-active) #header .header-row2 {
+        background: var(--transColor) !important;
       }
 
       body > .body > .main {
@@ -98,16 +105,16 @@
       <header
         id="header"
         class="header-transparent header-semi-transparent header-semi-transparent-light"
-        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 65, 'stickySetTop': '-65px'}"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt':1, 'stickySetTop': '0'}"
       >
         <div class="border-top-0 header-body box-shadow-none">
           <div class="header-top">
-            <div class="px-md-5 px-3 h-100">
+            <div class="h-100">
               <div class="header-row h-100 justify-content-between d-flex">
                 <div class="header-row">
                   <div class="header-logo">
                     <a href="index.html">
-                      <img alt="logo" src="./logo/logo bodi.png" />
+                      <img alt="logo" src="./logo/bodi electronics svg.png" />
                     </a>
                   </div>
                 </div>
@@ -116,9 +123,11 @@
                     <nav class="header-nav-top">
                       <ul class="nav nav-pills d-flex align-items-center">
                         <li
-                          class="nav-item nav-item-borders pe-3 py-2 d-none d-lg-inline-flex"
+                          class="nav-item nav-item-borders pe-3 d-none d-lg-inline-flex"
                         >
-                          <a href="/holboo-barih.html">ХОЛБОО БАРИХ</a>
+                          <a href="/holboo-barih.html" class="border-right"
+                            ><i class="fa-solid fa-phone pe-3"></i
+                          ></a>
                         </li>
                         <li
                           class="nav-item nav-item-borders pe-3 border-right header-nav-features"
@@ -213,10 +222,99 @@
                       >
                         <nav class="collapse">
                           <ul class="nav nav-pills" id="mainNav">
-                            <li>
-                              <a class="dropdown-item" href="/salbar.html">
+                            <li class="dropdown dropdown-mega">
+                              <a
+                                class="dropdown-item dropdown-toggle"
+                                href="/salbar.html"
+                              >
                                 Салбар
                               </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                  <div class="dropdown-mega-content">
+                                    <div class="row py-lg-2">
+                                      <div class="col-lg-4 col-xl-3">
+                                        <ul class="dropdown-mega-sub-nav">
+                                          <li>
+                                            <a class="dropdown-item" href="#">
+                                              Салбар
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Төр Захиргаа
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Банк Санхүү</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Уул уурхай</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Боловсрол
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Эрүүл Мэнд
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Барилга
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-lg-4 col-xl-3">
+                                        <ul class="dropdown-mega-sub-nav">
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Эрчим хүч
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >УСУГ</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Харилцаа холбоо</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Зам тээвэр</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Худалдаа үйлчилгээ</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Олон нийт
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Үйлдвэрлэл
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
                             </li>
                             <li class="dropdown dropdown-mega">
                               <a
@@ -444,6 +542,11 @@
                                 </li>
                               </ul>
                             </li>
+                            <li>
+                              <a class="dropdown-item" href="/salbar.html">
+                                Түншлэл
+                              </a>
+                            </li>
                           </ul>
                         </nav>
                       </div>
@@ -470,7 +573,7 @@
                           alt="entera logo"
                           width="130"
                           data-sticky-width="280"
-                          src="./logo/entera logo.png"
+                          src="./logo/entera  tsagaan logo.png"
                         />
                       </a>
                     </div>
@@ -520,8 +623,8 @@
         <!-- Carousel start -->
         <section id="section-top">
           <div
-            class="owl-carousel tom-carousel owl-carousel-light owl-theme manual dots-inside show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0 position-relative"
-            data-plugin-options="{'autoplayTimeout': 9000}"
+            class="owl-carousel tom-carousel owl-carousel-light owl-theme manual dots-inside show-dots-hover show-dots-xs mb-0 position-relative"
+            data-plugin-options="{'autoplayTimeout': 9000,'van':false}"
             data-dynamic-height="['700px','650px','600px','500px','400px']"
             style="height: 700px"
           >
@@ -531,32 +634,16 @@
                 <div
                   class="owl-item position-relative"
                   style="
-                    background-image: url(https://img.freepik.com/free-photo/millennial-group-young-businesspeople-asia-businessman-businesswoman-celebrate-giving-five-after-dealing-feeling-happy-signing-contract-agreement-meeting-room-small-modern-office_7861-2498.jpg?w=2000);
+                    background-image: url(./img/logos/photo_2022-08-12_15-06-44.jpg);
                     background-size: cover;
                     background-position: center;
                   "
                 >
-                  <!-- filter start -->
-                  <div class="background-filter"></div>
-                  <!-- filter end -->
-
                   <div
-                    class="container position-absolute top-50 left-10 z-index-10 h-100"
+                    class="container position-absolute left-10 z-index-10 h-100"
+                    style="top: 70%"
                   >
-                    <div class="carsoul-content justify-content-start h-100">
-                      <div class="d-flex flex-column w-lg-50">
-                        <p
-                          class="text-4-5 text-color-light font-weight-light mb-4"
-                          data-plugin-animated-letters
-                          data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}"
-                        >
-                          Монгол улсын томоохон банк санхүүгийн байгууллагын
-                          1000 орчим салбарыг хяналтын камержуулах ажлыг
-                          гүйцэтгэв.
-                        </p>
-                        <button class="carsoul-button">Дэлгэрэнгүй</button>
-                      </div>
-                    </div>
+                    <button class="carsoul-button">Дэлгэрэнгүй</button>
                   </div>
                 </div>
                 <!-- slide1 end -->
@@ -565,45 +652,22 @@
                 <div
                   class="owl-item position-relative"
                   style="
-                    background-image: url(https://img.freepik.com/free-photo/millennial-group-young-businesspeople-asia-businessman-businesswoman-celebrate-giving-five-after-dealing-feeling-happy-signing-contract-agreement-meeting-room-small-modern-office_7861-2516.jpg?w=2000);
+                    background-image: url(./img/logos/photo_2022-08-12_16-09-26.jpg);
                     background-size: cover;
                     background-position: center;
                   "
                 >
-                  <!-- filter start -->
-                  <div class="background-filter"></div>
-                  <!-- filter end -->
-
                   <div
-                    class="container position-absolute top-50 left-10 z-index-10 h-100"
+                    class="container position-absolute left-10 z-index-10 h-100"
+                    style="top: 70%"
                   >
-                    <div class="carsoul-content justify-content-start h-100">
-                      <div class="d-flex flex-column w-lg-50">
-                        <p
-                          class="text-4-5 text-color-light font-weight-light mb-4"
-                          data-plugin-animated-letters
-                          data-plugin-options="{'startDelay':0, 'minWindowWidth': 0, 'animationSpeed': 10}"
-                        >
-                          Бодь-Электроникс ХХК Монгол улсад хамгийн анх ухаалаг
-                          чип бүхий IC картыг нэвтрүүлллээ
-                        </p>
-                        <button class="carsoul-button">Үргэлжлүүлэх</button>
-                      </div>
-                    </div>
+                    <button class="carsoul-button">Үргэлжлүүлэх</button>
                   </div>
                 </div>
                 <!-- slide2 end -->
               </div>
             </div>
 
-            <div class="owl-nav large">
-              <button type="button" role="presentation" class="owl-prev">
-                <i class="fa-solid fa-chevron-left"></i>
-              </button>
-              <button type="button" role="presentation" class="owl-next">
-                <i class="fa-solid fa-chevron-right"></i>
-              </button>
-            </div>
             <div class="owl-dots">
               <button role="button" class="owl-dot active">
                 <span></span>
@@ -983,7 +1047,8 @@
                         <a
                           href="/news-screen.html"
                           class="text-dark text-decoration-none"
-                          >Entera Store Соно зээлийн апп-тай хамтран зээлийн үйлчилгээ нэвтрүүллээ.</a
+                          >Entera Store Соно зээлийн апп-тай хамтран зээлийн
+                          үйлчилгээ нэвтрүүллээ.</a
                         >
                       </h4>
                     </div>
@@ -1061,7 +1126,7 @@
                 href="/news.html"
               >
                 <h4 class="text-end m-0">Бүх мэдээллийг үзэх</h4>
-                <i class="fa-solid fa-arrow-right text-6 text-dark"></i>
+                <i class="fa-solid fa-arrow-right text-dark"></i>
               </a>
             </div>
           </div>
@@ -1170,8 +1235,7 @@
     <script src="./components/footer.js"></script>
     <script src="./components/header.js"></script>
     <a class="scroll-to scroll-to-top hidden-mobile" href="#">
-      <i class="fas fa-chevron-up" aria-hidden="true">
-      </i>
+      <i class="fas fa-chevron-up" aria-hidden="true"> </i>
     </a>
 
     <script

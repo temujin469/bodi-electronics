@@ -63,6 +63,7 @@
     <!-- ============ Custom CSS=========== -->
     <link rel="stylesheet" href="/customCss/global.css" />
     <link rel="stylesheet" href="/customCss/salbar.css" />
+    <link rel="stylesheet" href="/customCss/tvnshlel-section.css" />
     <link rel="stylesheet" href="/customCss/header.css" />
     <link rel="stylesheet" href="/customCss/footer.css" />
 
@@ -82,16 +83,16 @@
       <header
         id="header"
         class="header-transparent header-semi-transparent header-semi-transparent-light"
-        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 65, 'stickySetTop': '-65px'}"
+        data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt':1, 'stickySetTop': '0'}"
       >
         <div class="border-top-0 header-body box-shadow-none">
           <div class="header-top">
-            <div class="px-md-5 px-3 h-100">
+            <div class="h-100">
               <div class="header-row h-100 justify-content-between d-flex">
                 <div class="header-row">
                   <div class="header-logo">
                     <a href="index.html">
-                      <img alt="logo" src="./logo/logo bodi.png" />
+                      <img alt="logo" src="./logo/bodi electronics svg.png" />
                     </a>
                   </div>
                 </div>
@@ -100,9 +101,11 @@
                     <nav class="header-nav-top">
                       <ul class="nav nav-pills d-flex align-items-center">
                         <li
-                          class="nav-item nav-item-borders pe-3 py-2 d-none d-lg-inline-flex"
+                          class="nav-item nav-item-borders pe-3 d-none d-lg-inline-flex"
                         >
-                          <a href="/holboo-barih.html">ХОЛБОО БАРИХ</a>
+                          <a href="/holboo-barih.html" class="border-right"
+                            ><i class="fa-solid fa-phone pe-3"></i
+                          ></a>
                         </li>
                         <li
                           class="nav-item nav-item-borders pe-3 border-right header-nav-features"
@@ -113,13 +116,12 @@
                             <div
                               class="header-nav-feature header-nav-features-search header-nav-features-search-reveal d-inline-flex"
                             >
-                              <a
-                                href="#"
+                              <span
                                 class="header-nav-features-search-show-icon d-inline-flex text-decoration-none"
                                 ><i
                                   class="fas fa-search header-nav-top-icon"
                                 ></i
-                              ></a>
+                              ></span>
                             </div>
                           </div>
                         </li>
@@ -140,7 +142,29 @@
                               class="flag"
                               alt="English"
                             />
+                            <!-- <i class="fas fa-angle-down"></i> -->
                           </a>
+                          <!-- <div
+                            class="dropdown-menu dropdown-menu-end"
+                            aria-labelledby="dropdownLanguage"
+                          >
+                            <a class="dropdown-item" href="#">
+                              <img
+                                src="img/flags/eng.png"
+                                class="flag"
+                                alt="English"
+                              />
+                              English
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              <img
+                                src="img/flags/mongolia.png"
+                                class="flag flag-es"
+                                alt="English"
+                              />
+                              Mongolia
+                            </a>
+                          </div> -->
                         </li>
                       </ul>
                     </nav>
@@ -155,7 +179,7 @@
               <div class="header-column">
                 <div class="header-row">
                   <button
-                    class="btn header-btn-collapse-nav ms-0 ms-sm-3"
+                    class="btn header-btn-collapse-nav ms-0 py-0"
                     data-bs-toggle="collapse"
                     data-bs-target=".header-nav-main nav"
                   >
@@ -174,28 +198,20 @@
                       <div
                         class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1"
                       >
-                        <nav class="collapse header-mobile-border-top">
+                        <nav class="collapse">
                           <ul class="nav nav-pills" id="mainNav">
-                            <li>
-                              <a
-                                class="dropdown-item active"
-                                href="/salbar.html"
-                              >
-                                Салбар
-                              </a>
-                            </li>
                             <li class="dropdown dropdown-mega">
                               <a
                                 class="dropdown-item dropdown-toggle"
-                                href="/shiidel.html"
+                                href="/salbar.html"
                               >
-                                Шийдэл
+                                Салбар
                               </a>
                               <ul class="dropdown-menu">
                                 <li>
                                   <div class="dropdown-mega-content">
                                     <div class="row py-lg-2">
-                                      <div class="col-lg-3 ps-lg-4 pe-lg-5">
+                                      <div class="col-lg-4 col-xl-3">
                                         <span class="dropdown-mega-sub-title"
                                           >Архитектур</span
                                         >
@@ -225,7 +241,7 @@
                                           </li>
                                         </ul>
                                       </div>
-                                      <div class="col-lg-3 px-lg-5">
+                                      <div class="col-lg-4 col-xl-3">
                                         <span class="dropdown-mega-sub-title"
                                           >Мэдээллийн технологийн шийдэл</span
                                         >
@@ -262,7 +278,122 @@
                                           </li>
                                         </ul>
                                       </div>
-                                      <div class="col-lg-3 px-lg-5">
+                                      <div class="col-lg-4 col-xl-3">
+                                        <span class="dropdown-mega-sub-title"
+                                          >Бизнесийн шийдэл</span
+                                        >
+                                        <ul class="dropdown-mega-sub-nav">
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >IOT Edge</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Өгөгдлийн менежмент</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Аналитик
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >автоматжуулалт
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >дүрслэл
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="dropdown dropdown-mega">
+                              <a
+                                class="dropdown-item dropdown-toggle"
+                                href="/shiidel.html"
+                              >
+                                Шийдэл
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li>
+                                  <div class="dropdown-mega-content">
+                                    <div class="row py-lg-2">
+                                      <div class="col-lg-4 col-xl-3">
+                                        <span class="dropdown-mega-sub-title"
+                                          >Архитектур</span
+                                        >
+                                        <ul class="dropdown-mega-sub-nav">
+                                          <li>
+                                            <a class="dropdown-item" href="#">
+                                              Дижитал ажлын талбар
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Байгууллага, нэгж хоорондын
+                                              хамтын ажиллагаа</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Интернэт төхөөрөмжүүд болон
+                                              Анализ шинжилгээ</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Гар утасны аппликэйшн
+                                              хөгжүүлэлт</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-lg-4 col-xl-3">
+                                        <span class="dropdown-mega-sub-title"
+                                          >Мэдээллийн технологийн шийдэл</span
+                                        >
+                                        <ul class="dropdown-mega-sub-nav">
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Аюулгүй байдал</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Харилцаа холбоо</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Сүлжээ</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Байгууллагын ажлын талбар</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Байгууллагын сервер, Сторай</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a class="dropdown-item" href="#"
+                                              >Дэд бүтэц</a
+                                            >
+                                          </li>
+                                        </ul>
+                                      </div>
+                                      <div class="col-lg-4 col-xl-3">
                                         <span class="dropdown-mega-sub-title"
                                           >Бизнесийн шийдэл</span
                                         >
@@ -311,7 +442,7 @@
                                 <li>
                                   <div class="dropdown-mega-content">
                                     <div class="row py-lg-2">
-                                      <div class="col-lg-6 ps-lg-4 pe-0">
+                                      <div class="col-xl-6 col-lg-8">
                                         <span class="dropdown-mega-sub-title"
                                           >Мэдээллийн технологийн зөвлөх
                                           үйлчилгээ</span
@@ -382,7 +513,7 @@
                                         </div>
                                       </div>
 
-                                      <div class="col-lg-3 px-lg-5">
+                                      <div class="col-xl-3 col-lg-4">
                                         <span class="dropdown-mega-sub-title"
                                           >Борлуулалтын дараахи засвар
                                           үйлчилгээ</span
@@ -410,6 +541,11 @@
                                 </li>
                               </ul>
                             </li>
+                            <li>
+                              <a class="dropdown-item" href="/salbar.html">
+                                Түншлэл
+                              </a>
+                            </li>
                           </ul>
                         </nav>
                       </div>
@@ -417,6 +553,17 @@
                   </div>
                 </div>
 
+                <!-- <div class="header-column header-column-border-left flex-grow-0 justify-content-center">
+                  <div class="header-row ps-4 justify-content-end">
+                    <button
+                      class="btn header-btn-collapse-nav ms-0 ms-sm-3"
+                      data-bs-toggle="collapse"
+                      data-bs-target=".header-nav-main nav"
+                    >
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
+                </div> -->
                 <div class="header-column logo-column px-3 px-lg-4 me-lg-4">
                   <div class="header-row">
                     <div class="logo">
@@ -425,7 +572,7 @@
                           alt="entera logo"
                           width="130"
                           data-sticky-width="280"
-                          src="./logo/entera logo.png"
+                          src="./logo/entera  tsagaan logo.png"
                         />
                       </a>
                     </div>
@@ -458,9 +605,9 @@
                         value=""
                         placeholder="Хайх..."
                       />
-                      <a href="#" class="header-nav-features-search-hide-icon"
+                      <span class="header-nav-features-search-hide-icon"
                         ><i class="fas fa-times header-nav-top-icon"></i
-                      ></a>
+                      ></span>
                     </div>
                   </form>
                 </div>
@@ -503,18 +650,18 @@
                   </p>
                 </div>
               </div>
-              <div class="col-md-4 d-flex justify-content-lg-end ps-lg-5">
+              <div
+                class="col-md-4 mt-lg-5 pt-lg-4 d-flex justify-content-lg-end ps-lg-5"
+              >
                 <div
-                  class="toggle toggle-minimal toggle-primary border shadow-sm w-100"
+                  class="toggle toggle-minimal toggle-primary w-100"
                   data-plugin-toggle
                 >
-                  <section class="toggle p-0 table">
+                  <section class="toggle p-0">
                     <h3 class="toggle-title text-dark text-uppercase p-4">
                       Салбарууд
                     </h3>
-                    <div
-                      class="toggle-content w-100 table row-text-padding m-0"
-                    >
+                    <div class="toggle-content w-100 row-text-padding m-0">
                       <a href="#">Төр Захиргаа </a>
                       <a href="#">Банк Санхүү</a>
                       <a href="#">Боловсрол </a>
@@ -626,26 +773,69 @@
             </div>
           </div>
         </section>
-        <section class="section-3">
-          <div class="container">
-            <h3 class="mb-lg-5 mt-5">Санал болгох үйлчилгээ</h3>
-            <div class="col-center text-center">
-              <h3 class="text-lowercase">Эрүүл мэндийн салбарын үйлчилгээ</h3>
-              <p style="max-width: 630px">
-                Бид таны асуудалд зориулж танай байгууллагад түргэн шуурхай, уян
-                хатан, орчин үеийн мэдээллийн технологийн цогц үйлчилгээг санал
-                болгож байна.
-              </p>
-            </div>
-            <div class="row my-5 py-lg-5 vilchilgeenvvd text-center">
-              <div class="col-md-4">
-                <p>Дижитал болгох шийдэл үйлчилгээ</p>
-              </div>
-              <div class="col-md-4">
-                <p>Дижитал болгох шийдэл үйлчилгээ</p>
-              </div>
-              <div class="col-md-4">
-                <p>Дижитал болгох шийдэл үйлчилгээ</p>
+        <section class="container section-4">
+          <a href="/tvnsh.html">
+            <h3 class="mt-4 mb-0">Түншлэл</h3>
+          </a>
+
+          <div class="row py-4">
+            <div class="col pt-3 px-0">
+              <div
+                class="owl-carousel owl-theme mb-0"
+                id="companies-carousel"
+                data-plugin-options="{'responsive': {'0': {'items': 2}, '476': {'items': 3}, '768': {'items': 5},'992': {'items': 5}, '1200': {'items': 5}}, 'autoplay': true, 'autoplayTimeout': 3000, 'dots': true}"
+              >
+                <img class="company" src="partners-logos/Apple.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Artboard-1.png"
+                  alt=""
+                />
+                <img
+                  class="company"
+                  src="partners-logos/bang&olufsen.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/blackvue.png" alt="" />
+                <img class="company" src="partners-logos/bxb.png" alt="" />
+                <img class="company" src="partners-logos/ddw.png" alt="" />
+                <img class="company" src="partners-logos/East-UPS.PNG" alt="" />
+                <img class="company" src="partners-logos/Fujitsu.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Hanwha--Techwin.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/hp.png" alt="" />
+                <img class="company" src="partners-logos/HPE.PNG" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Microsoft.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/Miele.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/netorkoptis.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/Oracle.png" alt="" />
+                <img class="company" src="partners-logos/Radware.png" alt="" />
+                <img class="company" src="partners-logos/riello.png" alt="" />
+                <img class="company" src="partners-logos/Suprema.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/teltonika.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/voltek.png" alt="" />
+                <img
+                  class="company"
+                  src="partners-logos/Watchguard.png"
+                  alt=""
+                />
+                <img class="company" src="partners-logos/yarmee.png" alt="" />
+                <img class="company" src="partners-logos/zebra.png" alt="" />
               </div>
             </div>
           </div>

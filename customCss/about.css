@@ -10,6 +10,7 @@ i.fa-check {
   background-color: var(--blue);
   border-radius: 50%;
   width: 23px;
+  font-size: 11px;
   height: 23px;
   color: var(--white);
 }
@@ -65,4 +66,12 @@ i.fa-check {
 
 .toggle.toggle-minimal .toggle {
   padding:25px 1px 25px 1px ;
+}
+
+.section-1 .toggle > .toggle-title:before {
+  transform: rotate(135deg);
+}
+
+.section-1 .toggle.active > .toggle-title:before {
+  transform: rotate(-45deg);
 }

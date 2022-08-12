@@ -9751,7 +9751,7 @@ a.text-light:hover {
   border-left: 1px solid #dadada !important;
 }
 .border-right {
-  border-right: 1px solid #252525 !important;
+  border-right: 0.5px solid var(--saaral) !important;
 }
 .border-all {
   border: 1px solid #dadada !important;
