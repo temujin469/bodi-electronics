@@ -24,6 +24,10 @@ div.toggle {
   padding-bottom: 25px;
 }
 
+a.active {
+  color: var(--blue);
+}
+
 
 .rounded-white-box {
   display:flex;
