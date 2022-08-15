@@ -1,0 +1,102 @@
+/* .swiper {
+  width: 100%;
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(194, 141, 141);
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-item {
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  align-items: center;
+} */
+
+/*========= swiper-section ========= */
+section.swiper-section h5 {
+  padding-top: 10px;
+  text-align: center;
+  border-top: 0.1px solid var(--saaral);
+}
+
+section.swiper-section article>.row img {
+  padding-bottom: 10px;
+  width: 100% !important;
+}
+
+section.swiper-section article:hover h5 {
+  color: var(--blue);
+}
+
+section.swiper-section article>.row {
+  justify-content: center;
+}
+
+section.swiper-section article {
+  width: 125px;
+  height: 195px;
+}
+@media (min-width:760px) {
+  section.swiper-section article {
+    width: 113px;
+  }
+}
+
+section.swiper-section .owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  display: flex;
+  padding: 5px;
+  height: 210px !important;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0 !important;
+}
+
+section.swiper-section .owl-carousel .owl-stage {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  -ms-touch-action: pan-Y;
+  touch-action: manipulation;
+}
+
+/* tom delgets deer */
+section.swiper-section .owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
+/* jijig delgets deer */
+section.swiper-section .owl-carousel .owl-dots:not(.disabled),
+section.swiper-section .owl-carousel .owl-nav:not(.disabled) {
+  display: none;
+}

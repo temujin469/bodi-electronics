@@ -7,7 +7,7 @@ const footer = `
   <div class="row py-md-5 p-0">
     <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
       <a href="/index.html">
-        <img class="logo" src="/logo/entera logo.png" />
+        <img class="logo" src="/logo/entera  tsagaan logo.png" />
       </a>
     </div>
     <div class="col-lg-6 col-xl-3 footer-text p-0">
