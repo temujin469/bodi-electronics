@@ -3318,11 +3318,13 @@ html.sticky-header-active
   font-family: 'Font Awesome\ 6 Free';
   content: "\f054";
   font-weight: 700;
+  font-size: 13px;
 }
 .owl-carousel.nav-icon-1 .owl-nav .owl-prev:before {
   font-family: 'Font Awesome\ 6 Free';
   content: "\f053";
   font-weight: 700;
+  font-size: 13px;
 }
 .owl-carousel.nav-size-md .owl-nav .owl-next {
   width: 40px;

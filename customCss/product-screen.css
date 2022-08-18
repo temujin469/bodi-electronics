@@ -39,13 +39,17 @@ section.product-detail p.description {
   margin-bottom: 25px;
 }
 
+section.product-detail p.description-name {
+  font-size: 20px !important;
+}
+
 section.product-detail .price-wrapper {
   margin: 25px 0 0 0;
 }
 
 section.product-detail p.price {
   margin: 0;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
 }
 

@@ -213,7 +213,8 @@ section.brands .owl-carousel .owl-stage .owl-item {
 }
 
 section.brands .owl-carousel img:hover {
-  box-shadow: 1px 1px 6px gray;
+  box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.322);
+  border-radius: 10px;
 }
 
 

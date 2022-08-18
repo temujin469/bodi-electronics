@@ -189,7 +189,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   } */
 
   #header .header-top .header-logo img {
-    max-width: 260px !important;
+    max-width: 250px !important;
   }
 }
 /* min-width 991px end*/

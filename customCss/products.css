@@ -3,17 +3,31 @@ section.products .owl-theme .owl-nav > button {
   position: absolute;
   top: 35%;
   background-color: rgba(0, 0, 0, 0.247) !important;
-  width: 45px !important;
+  width: 40px !important;
   border-radius: 50%;
-  height: 45px !important;
+  height: 40px !important;
 }
 
-section.products .owl-theme .owl-nav > .owl-prev {
+section.categories .owl-theme .owl-nav > .owl-prev {
   left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-section.products .owl-theme .owl-nav > .owl-next {
+section.categories .owl-theme .owl-nav > .owl-next {
   right: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.categories .owl-theme .owl-nav > .owl-prev::after {
+  font-size: 13px;
+}
+
+section.categories .owl-theme .owl-nav > .owl-next::after {
+  font-size: 13px;
 }
 
 section.products {
