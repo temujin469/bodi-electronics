@@ -95,6 +95,8 @@ div.date {
   div.date {
     justify-content: center;
   }
+
+  
 }
 
 div.date span {
@@ -141,6 +143,14 @@ div.document button.submit-btn {
 @media (max-width:700px) {
   div.document button.submit-btn {
     width: 100%;
+  }
+
+  div.document p ,div.document li,div.document a {
+    font-size: 14px;
+  }
+
+  button.option p {
+    font-size: 14px;
   }
 }
 
