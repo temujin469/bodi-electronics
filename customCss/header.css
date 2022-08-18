@@ -9,9 +9,11 @@
   color: var(--textColor);
 }
 
-html:not(.sticky-header-active) #header .header-row2 {
-    background: transparent !important;
+html #header .header-row2 {
+    background: var(--gray) !important;
   }
+
+
 
 #header .header-row2 .logo img {
   width: 100px !important;

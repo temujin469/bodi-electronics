@@ -7,7 +7,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Бүтээгдхүүн</title>
+    <title>Bang @ olufsen</title>
 
     <meta name="description" content="Бодь Электроникс ХХК" />
 
@@ -67,8 +67,8 @@
     <!-- ========= Custom CSS ======== -->
     <link rel="stylesheet" href="../customCss/global.css" />
     <link rel="stylesheet" href="../customCss/enteraGlobal.css" />
-    <link rel="stylesheet" href="../customCss/products.css" />
-    <link rel="stylesheet" href="../customCss/header.css" />
+    <link rel="stylesheet" href="../customCss/enteraBrand.css" />
+    <link rel="stylesheet" href="../customCss/news-section.css" />
     <link rel="stylesheet" href="../customCss/enteraHeader.css" />
     <link rel="stylesheet" href="../customCss/enteraFooter.css" />
 
@@ -80,17 +80,16 @@
       src="https://kit.fontawesome.com/e61ce33beb.js"
       crossorigin="anonymous"
     ></script>
-
-    <!-- index page feature -->
+    
   </head>
 
   <body data-plugin-page-transition>
     <div class="body">
       <!-- header start -->
       <header id="header" class="header-transparent header-semi-transparent header-semi-transparent-light"
-      data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt':200, 'stickySetTop': '0'}">
+      data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt':0, 'stickySetTop': '0'}">
       <div class="border-top-0 header-body box-shadow-none">
-        <div class="header-top px-md-5 px-3">
+        <div class="header-top px-3">
           <div class="header-row justify-content-between align-items-center d-flex">
             <div class="header-logo">
               <a href="index.html">
@@ -164,17 +163,28 @@
     </header>
       <!-- header end -->
 
-      <div role="main pt-5" class="main">
-        <section class="products pb-5">
+      <div role="main" class="main">
+        <!-- Carousel start -->
+        <section id="section-top">
+          <img class="brand-logo bang_olufsen" src="../partners-logos/bang&olufsen.png" />
+
+          <img
+            class="cover-photo"
+            src="https://www.yankodesign.com/images/design_news/2022/02/bang-and-olufsen-might-want-to-make-this-modular-speaker-concept-a-reality/Bang-Olufsen-Inspired-Orchestra-Parts.jpg"
+            alt=""
+          />
+        </section>
+
+        <section class="categories">
           <div class="container">
-              <h3 class="text-none mb-5 pb-lg-3">Утасгүй чихэвч</h3>
             <div>
+              <h3 class="mt-5">Бүтээгдэхүүн</h3>
               <div
-                class="owl-carousel owl-thememb-0 nav-inside"
-                data-plugin-options="{'responsive': {'0': {'items': 2, 'nav': false}, '479': {'items': 2, 'nav': false}, '768': {'items': 3}, '992': {'items': 4}, '1200': {'items': 4}}, 'loop': false, 'nav': true, 'dots': false, 'margin': 20}"
+                class="owl-carousel owl-theme show-nav-title mb-0"
+                data-plugin-options="{'responsive': {'0': {'items': 2, 'nav': true}, '479': {'items': 2, 'nav': true}, '768': {'items': 3,'nav': true}, '992': {'items': 4}, '1200': {'items': 4}}, 'loop': false, 'nav': false, 'dots': false, 'margin': 20}"
               >
                 <div class="product">
-                  <a href="/entera/product-screen.html">
+                  <a href="/entera/bang&olufsen-products.html">
                     <div class="image-container">
                       <img
                         alt=""
@@ -182,12 +192,11 @@
                         src="https://www.urbanears.com/on/demandware.static/-/Sites-zs-master-catalog/default/dw2618949c/images/urbanears-2/horizontal_product_gallery/boo-tip/almost_green/2.png"
                       />
                     </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
+                    <p class="category-name">Гэрийн аудио өсгөгч</p>
                   </a>
                 </div>
                 <div class="product">
-                  <a href="/entera/product-screen.html">
+                  <a href="/entera/bang&olufsen-products.html">
                     <div class="image-container">
                       <img
                         alt=""
@@ -195,12 +204,11 @@
                         src="https://d7qztf2ityad6.cloudfront.net/23712/23712_pictures_product_visual_1.png?f=RM1920,800"
                       />
                     </div>
-                    <p class="name">BEOPLAY EQ</p>
-                    <p class="price">37,762,000₮</p>
+                    <p class="category-name">Телевиз</p>
                   </a>
                 </div>
                 <div class="product">
-                  <a href="/entera/product-screen.html">
+                  <a href="/entera/bang&olufsen-products.html">
                     <div class="image-container">
                       <img
                         alt=""
@@ -208,12 +216,11 @@
                         src="https://d7qztf2ityad6.cloudfront.net/23783/23783_pictures_product_front_2.png?f=RM1920,800"
                       />
                     </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
+                    <p class="category-name">Чихэвч</p>
                   </a>
                 </div>
                 <div class="product">
-                  <a href="/entera/product-screen.html">
+                  <a href="/entera/bang&olufsen-products.html">
                     <div class="image-container">
                       <img
                         alt=""
@@ -221,96 +228,169 @@
                         src="https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3?fmt=png-alpha&wid=880&hei=880"
                       />
                     </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://d7qztf2ityad6.cloudfront.net/23712/23712_pictures_product_front_2.png?f=RM1920,800"
-                      />
-                    </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
+                    <p class="category-name">Зөөврийн өсгөгч</p>
                   </a>
                 </div>
               </div>
             </div>
-            <div>
-              <div
-                class="owl-carousel owl-theme nav-inside mb-0"
-                data-plugin-options="{'responsive': {'0': {'items': 2, 'nav': false}, '479': {'items': 2, 'nav': false}, '768': {'items': 3}, '992': {'items': 4}, '1200': {'items': 4}}, 'loop': false, 'nav': true, 'dots': false, 'margin': 20}"
-              >
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://www.urbanears.com/on/demandware.static/-/Sites-zs-master-catalog/default/dw2618949c/images/urbanears-2/horizontal_product_gallery/boo-tip/almost_green/2.png"
-                      />
+          </div>
+        </section>
+
+        <section
+          class="border-0 video overlay overlay-show overlay-op-8"
+          data-video-path="../video/Untitled video - Made with Clipchamp (1).mp4"
+          data-plugin-video-background
+          data-plugin-options="{'posterType': 'jpg', 'position': '50% 50%'}"
+          data-dynamic-height="['500px','400px','300px','250px','150']"
+          style="height: 500px"
+        ></section>
+
+        <section
+          class="section-3 news pb-5 mt-5 appear-animation"
+          data-appear-animation="fadeIn"
+        >
+          <div class="container mb-2 pb-lg-5">
+            <h3>Мэдээ мэдээлэл</h3>
+
+            <div
+              class="row gap-lg-0 gap-4 justify-content-lg-between justify-content-center appear-animation"
+              data-appear-animation="fadeInUpShorter"
+              data-appear-animation-delay="200"
+            >
+              <div class="col-lg-4 col-xl-3">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/entera/news-screen.html" class="text-decoration-none">
+                        <img
+                          src="https://company.e-mart.mn/media/emart/content/About/140414_General_Drawing_0218.jpg"
+                          class=""
+                          alt=""
+                        />
+                      </a>
                     </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://d7qztf2ityad6.cloudfront.net/23712/23712_pictures_product_visual_1.png?f=RM1920,800"
-                      />
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1 text-muted">
+                        <i class="fa-regular fa-clock pe-1"></i
+                        ><span>2022.7.31</span>
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="/entera/news-screen.html"
+                          class="text-dark text-decoration-none"
+                          >Бодь-Электроникс ХХК Монгол улсад хамгийн анх ухаалаг
+                          чип бүхий IC картыг нэвтрүүлллээ</a
+                        >
+                      </h4>
                     </div>
-                    <p class="name">BEOPLAY EQ</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://d7qztf2ityad6.cloudfront.net/23783/23783_pictures_product_front_2.png?f=RM1920,800"
-                      />
-                    </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3?fmt=png-alpha&wid=880&hei=880"
-                      />
-                    </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
-                <div class="product">
-                  <a href="/entera/product-screen.html">
-                    <div class="image-container">
-                      <img
-                        alt=""
-                        class="image"
-                        src="https://d7qztf2ityad6.cloudfront.net/23712/23712_pictures_product_front_2.png?f=RM1920,800"
-                      />
-                    </div>
-                    <p class="name">BEOPLAY EX</p>
-                    <p class="price">37,762,000₮</p>
-                  </a>
-                </div>
+                  </div>
+                </article>
               </div>
+              <div class="col-lg-4 col-xl-3">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/entera/news-screen.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNpdHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                          class=""
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1 text-muted">
+                        <i class="fa-regular fa-clock pe-1"></i
+                        ><span>2022.7.31</span>
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="/entera/news-screen.html"
+                          class="text-dark text-decoration-none"
+                          >Entera Store Соно зээлийн апп-тай хамтран зээлийн үйлчилгээ нэвтрүүллээ.</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 col-xl-3">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/entera/news-screen.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                          class=""
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1 text-muted">
+                        <i class="fa-regular fa-clock pe-1"></i
+                        ><span>2022.7.31</span>
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="/entera/news-screen.html"
+                          class="text-dark text-decoration-none"
+                          >Боловсролын яаманд Hp брэндийн 1000 орчим laptop-г
+                          нийлүүллээ.
+                        </a>
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-lg-4 col-xl-3 d-none d-xl-block">
+                <article class="border">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/entera/news-screen.html" class="text-decoration-none">
+                        <img
+                          src="https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                          class=""
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row px-4 py-3">
+                    <div class="col">
+                      <p class="text-2 mb-1 text-muted">
+                        <i class="fa-regular fa-clock pe-1"></i
+                        ><span>2022.7.31</span>
+                      </p>
+                      <h4 class="line-height-5 ls-0">
+                        <a
+                          href="/entera/news-screen.html"
+                          class="text-dark text-decoration-none"
+                          >Боловсролын яаманд Hp брэндийн 1000 орчим laptop-г
+                          нийлүүллээ.
+                        </a>
+                      </h4>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div
+              class="d-flex gap-3 align-items-center mt-4 justify-content-end"
+            >
+              <a
+                class="read-more-button d-flex gap-3 align-items-center"
+                href="/entera/news.html"
+              >
+                <h4 class="text-end m-0">Бүх мэдээллийг үзэх</h4>
+                <i class="fa-solid fa-arrow-right text-6 text-dark"></i>
+              </a>
             </div>
           </div>
         </section>

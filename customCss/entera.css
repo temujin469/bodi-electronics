@@ -3,10 +3,10 @@
     max-width: 60%;
   }
   section.video {
-    margin-bottom: 150px;
+    margin-bottom: 60px;
   }
   body > .body > .main {
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
   section.brands {
     margin-top: 80px !important;
@@ -21,14 +21,6 @@
 section.section-3 article {
   height: 445px;
   overflow: hidden;
-}
-
-
-
-
-
-body > .body > .main {
-  padding-top:56px  !important;
 }
 
 .owl-carousel.dots-inside .owl-dots {
@@ -217,6 +209,10 @@ section.brands .owl-carousel img:hover {
   border-radius: 10px;
 }
 
+
+.brand-swiper {
+  border-bottom: 2px solid #F4EAEA;
+}
 
 /* ===video === */
 

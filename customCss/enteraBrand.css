@@ -1,5 +1,5 @@
 @media (min-width: 990px) {
-  .owl-carousel>.owl-stage-outer>.owl-stage>.owl-item .carsoul-content {
+  .owl-carousel > .owl-stage-outer > .owl-stage > .owl-item .carsoul-content {
     max-width: 60%;
   }
   section.section-3 article {
@@ -7,28 +7,23 @@
     overflow: hidden;
   }
   section.video {
-    margin-bottom: 150px;
-  }
-  
-  #section-top img.cover-photo {
-    height: 600px !important;
+    margin-bottom: 60px;
   }
 
-  img.brand-logo {
-    width: 200px !important;
+  #section-top img.cover-photo {
+    height: 600px !important;
   }
 
   section.categories .product .category-name {
     margin: 10px 0 5px 0;
     text-align: center;
   }
-
 }
-
 
 #section-top {
   max-height: 600px !important;
   overflow: hidden !important;
+  position: relative !important;
   /* object-position: top center; */
 }
 
@@ -38,19 +33,51 @@
   width: 100% !important;
 }
 
-img.brand-logo {
-  position: absolute;
-  top:90px;
-  left: 4px;
-  width: 100px;
-  object-fit: contain;
+@media (max-width: 968px) {
+  img.brand-logo.bang_olufsen {
+    width: 100px !important;
+    top: 28px !important;
+  }
+  img.brand-logo.miele {
+    width: 150px !important;
+    top: 0px !important;
+  }
+  img.brand-logo.apple {
+    width: 100px !important;
+    top: 28px !important;
+    left: 0px !important;
+  }
 }
 
-@media (min-width:400px) {
+/* apple */
+img.brand-logo.apple {
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  left: 4px;
+}
+
+/* bang_olufsen */
+img.brand-logo.bang_olufsen {
+  position: absolute;
+  top: 40px;
+  width: 200px;
+  left: 4px;
+}
+
+/* .miele */
+img.brand-logo.miele {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  width: 300px;
+  transform: translateX(-50%);
+}
+
+@media (min-width: 400px) {
   #section-top img.cover-photo {
     height: 220px;
   }
-  
 }
 
 section.categories .owl-theme .owl-nav > button {
@@ -85,7 +112,6 @@ section.categories .owl-theme .owl-nav > .owl-next::after {
   font-size: 13px;
 }
 
-
 section.categories {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -119,9 +145,6 @@ section.categories .product .category-name {
   text-align: center;
 }
 
-
-
-
 section.categories .owl-theme .owl-nav > .owl-next::after {
   font-family: "Font Awesome\ 6 Free";
   content: "\f054";
@@ -135,5 +158,3 @@ section.categories .owl-theme .owl-nav > .owl-prev::after {
   color: var(--textColor);
   color: var(--textColor);
 }
-
-

@@ -1,5 +1,11 @@
 #header div.header-top {
   background-color: #1F1F1F;
+  padding: 0 30px 0 30px !important;
+}
+#header .header-body {
+  background-color: #1F1F1F;
+  height: 64px !important;
+  width: 100%;
 }
 
 #header div.header-top * {

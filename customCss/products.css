@@ -92,3 +92,36 @@ section.products .owl-theme .owl-nav > .owl-prev::after {
   color: var(--textColor);
   color: var(--textColor);
 }
+
+section.toggle > .toggle-content > a:hover {
+  background-color: var(--tsagaanSaaral);
+}
+
+div.toggle {
+  border-top: 3px solid var(--blue) !important;
+  height: fit-content;
+  max-width: 500px;
+  margin: 0px;
+  box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.089);
+}
+
+.toggle.active > label:before,
+.toggle.active > .toggle-title:before,
+.toggle > label:before,
+.toggle > .toggle-title:before {
+  content: none;
+}
+
+.toggle:not(.active) > .toggle-content {
+  display: flex !important;
+}
+
+
+a.active {
+  color: var(--blue);
+}
+
+.toggle-content > a {
+  border-top: 1px solid var(--saaral);
+}
+
