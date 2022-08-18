@@ -4,7 +4,7 @@ const footer = `
 <!-- footer start -->
 <footer id="footer" class="border-top-0 mt-0">
 <div class="container-fluid py-4 px-md-5">
-  <div class="row py-md-5 p-0">
+  <div class="row p-0 py-md-4">
     <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
       <a href="/index.html">
         <img class="logo" src="/logo/entera  tsagaan logo.png" />
@@ -41,10 +41,10 @@ const footer = `
     </div>
     <div
       class="pb-md-5 pb-4 footer-links d-flex flex-column flex-md-row gap-3 gap-md-5 justify-content-between justify-content-lg-center w-100">
-      <a href="/about.html" class="">Бидний тухай</a>
-      <a href="/hvnii-nuuts.html" class="">Хүний нөөц</a>
-      <a href="/arga-hemjee.html" class="">Арга хэмжээ</a>
-      <a href="/sanal-hvselt.html" class="">Санал хүсэлт</a>
+      <a href="../entera/news.html" class="">Мэдээ мэдээлэл</a>
+      <a href="../entera/zaswar-uilchilgee.html" class="">Засвар үйлчилгээ</a>
+      <a href="../entera/arga-hemjee.html" class="">Арга хэмжээ</a>
+      <a href="../entera/sanal-hvselt.html" class="">Санал хүсэлт</a>
     </div>
   </div>
   <div class="p-3 footer-bottom">

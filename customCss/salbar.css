@@ -51,9 +51,9 @@ section.shiidel .col-lg-4 {
 }
 
 .rounded-white-box .content {
-  padding: 40px 30px 40px 30px;
+  padding: 30px;
   background-color: white;
-  height: 230px;
+  /* height: 2px; */
 }
 
 .rounded-white-box .image {
@@ -65,7 +65,7 @@ section.shiidel .col-lg-4 {
 
 .rounded-white-box img {
   object-fit: cover;
-  height: 220px;
+  height: 140px;
   width: 100%;
   object-position: bottom bottom;
 }
@@ -85,7 +85,6 @@ section.shiidel .col-lg-4 {
 
 
 .rounded-white-box > .content > h4 {
-  color: var(--blue);
   margin-bottom: 25px;
 }
 

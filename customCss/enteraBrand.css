@@ -10,7 +10,7 @@
     margin-bottom: 150px;
   }
   
-  #section-top img {
+  #section-top img.cover-photo {
     height: 600px !important;
   }
 
@@ -21,10 +21,16 @@
 }
 
 
-img.cover-photo {
-  max-height: 500px;
+#section-top {
+  max-height: 600px !important;
+  overflow: hidden !important;
+  /* object-position: top center; */
+}
+
+#section-top img.cover-photo {
+  height: 100%;
   object-fit: cover;
-  object-position: top center;
+  width: 100% !important;
 }
 
 img.brand-logo {
@@ -39,22 +45,13 @@ img.brand-logo {
   #section-top img.cover-photo {
     height: 220px;
   }
-
   
 }
 
-#section-top img {
-  object-fit: cover;
-  width: 100%;
-  overflow: hidden;
-}
-
-
-
-
 section.categories .owl-theme .owl-nav > button {
   position: absolute;
-  top: 35%;
+  top: 40%;
+  transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.247) !important;
   width: 45px !important;
   border-radius: 50%;

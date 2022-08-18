@@ -4,7 +4,7 @@ const footer = `
 <!-- footer start -->
 <footer id="footer" class="border-top-0 pt-0">
   <div class="container-fluid py-4 px-md-5">
-    <div class="row py-md-5 p-0">
+    <div class="row py-md-3 p-0">
       <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
         <a href="/index.html">
           <img class="logo" src="../logo/bodi electronics  tsagaan.png" />

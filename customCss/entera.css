@@ -9,11 +9,12 @@
     margin-bottom: 150px;
   }
   section.brands {
-    margin-top: 100px !important;
+    margin-top: 80px !important;
     margin-bottom: 80px !important;
   }
   section.brands .owl-carousel img {
-    width: 300px !important;
+    width: 220px !important;
+    height:128px ;
   }
 }
 
@@ -21,6 +22,8 @@ section.section-3 article {
   height: 445px;
   overflow: hidden;
 }
+
+
 
 
 
@@ -181,7 +184,7 @@ section.brands .owl-carousel img {
   object-fit: contain !important;
 }
 section.brands {
-  margin-bottom:50px;
+  margin-bottom:15px;
 }
 
 section.brands .owl-carousel .owl-stage {

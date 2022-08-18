@@ -13,3 +13,16 @@
 .fa-search.header-nav-top-icon {
   font-size: 15px !important;
 }
+
+#header .header-top .header-logo img {
+  max-width: 200px !important;
+}
+
+.swiper-logo {
+  position:absolute;
+  z-index: 100;
+  top:30px;
+  left:30px;
+  width: 130px;
+  object-fit: contain;
+}
