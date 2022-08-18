@@ -45,8 +45,6 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     min-height: 100%;
   }
 
-  
-
   #header .header-top {
     padding: 0 13px 0 13px;
   }
@@ -69,7 +67,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   }
 
   html #header .header-container #header-links {
-    height: 60px;
+    height: 50px;
   }
   html #header .fa-bars:before {
     color: var(--saaral) !important;
@@ -90,6 +88,13 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   #header .header-top .header-logo img {
     max-width: 190px !important;
   }
+
+  #header .header-top {
+    border-bottom: none;
+    background-color: #f2f5fa;
+    height:50px !important ;
+    /* min-height: 47px; */
+  }
 }
 /* max-width 991px end*/
 
@@ -100,25 +105,29 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     background-color: var(--white) !important;
     transition: all ease transform 300ms !important;
   }
-  html.sticky-header-active #header .logo-column {
+  /* html.sticky-header-active #header .logo-column {
     background-color: transparent !important;
     height: 65px;
     min-height: 100%;
     display: flex;
     align-items: center;
-  }
+  } */
 
   #header .header-top {
     padding: 0 30px 0 30px !important;
   }
 
-  html #header .header-row2 li.dropdown {
+  /* html #header .header-row2 li.dropdown {
     height: 65px !important;
-  }
+  } */
 
-  html #header .header-container #header-links .header-row2 {
+  /* html #header .header-container #header-links .header-row2 {
     height: 65px !important;
     overflow: hidden;
+  } */
+
+  html #header .header-container #header-links {
+    height: 70px !important;
   }
 
   /* html.sticky-header-active
@@ -156,7 +165,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   }
 
   html #header .header-nav.header-nav-links nav.collapse {
-    height: 65px !important;
+    height: 67px !important;
   }
 
   #header .header-row2 .logo img {
@@ -191,6 +200,13 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   #header .header-top .header-logo img {
     max-width: 250px !important;
   }
+
+  #header .header-top {
+    border-bottom: none;
+    background-color: #f2f5fa;
+    height:65px !important ;
+    /* min-height: 47px; */
+  }
 }
 /* min-width 991px end*/
 
@@ -199,12 +215,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   overflow: hidden !important;
 }
 
-#header .header-top {
-  border-bottom: none;
-  background-color: #f2f5fa;
-  height:65px !important ;
-  /* min-height: 47px; */
-}
+
 #header .header-top .header-row a {
   color: var(--textColor);
 }
