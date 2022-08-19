@@ -11,7 +11,7 @@
 
 html #header .header-row2 {
     background: var(--gray) !important;
-  }
+}
 
 
 
@@ -65,6 +65,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
   #header .header-container #header-links {
     display: flex !important;
     justify-content: space-between;
+    background-color: var(--gray);
     align-items: center;
   }
 
@@ -213,7 +214,6 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
 /* min-width 991px end*/
 
 .header-row2 {
-  background: #383f46;
   overflow: hidden !important;
 }
 

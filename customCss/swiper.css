@@ -61,6 +61,7 @@ section.swiper-section .swiper-column > .shiidel h5 {
 
   section.swiper-section .swiper-column > .shiidel {
     gap:7px !important;
+    padding:2px 5px !important;
   }
 
   section.swiper-section .swiper-column {
