@@ -1,5 +1,5 @@
 /*========= section-4 ========= */
-section.section-4 .owl-carousel img {
+section.tvnshlel-section .owl-carousel img {
   box-shadow:0 0 6px 2px  rgba(0, 0, 0, 0.068) ;
   border-radius: 20px;
   padding: 25px;
@@ -7,7 +7,7 @@ section.section-4 .owl-carousel img {
   object-fit: contain;
 }
 
-section.section-4 .owl-carousel .owl-stage {
+section.tvnshlel-section .owl-carousel .owl-stage {
   position: relative;
   display: flex;
   align-items: baseline;
@@ -15,11 +15,11 @@ section.section-4 .owl-carousel .owl-stage {
   touch-action: manipulation;
 }
 
-section.section-4 .owl-carousel .owl-stage .owl-item {
+section.tvnshlel-section .owl-carousel .owl-stage .owl-item {
   padding: 18px;
   margin-left: 5px;
 }
 
-section.section-4 .owl-carousel img:hover {
+section.tvnshlel-section .owl-carousel img:hover {
   box-shadow: 1px 1px 6px gray;
 }
