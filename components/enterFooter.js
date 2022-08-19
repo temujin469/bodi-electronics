@@ -13,13 +13,13 @@ const footer = `
     <div class="col-lg-6 col-xl-3 footer-text p-0">
       <i class="fa-solid fa-phone"></i>
       <div>
-        <h5 class="m-0 p-0">(976) 70108010</h5>
-        <h5 class="m-0 p-0">(976) 75855577</h5>
+        <h5 class="m-0 p-0">(+976) 70108010</h5>
+        <h5 class="m-0 p-0">(+976) 75855577</h5>
       </div>
     </div>
     <div class="col-lg-6 col-xl-3 footer-text ps-0 pe-xl-5">
       <div><i class="fa-solid fa-envelope"></i></div>
-      <h5 class="text-nowrap">info@bodi-electronics.com</h5>
+      <h5 class="text-nowrap">info@bodi-electronics.mn</h5>
     </div>
     <div class="col-lg-6 col-xl-3 footer-text p-0">
       <div><i class="fa-solid fa-location-dot"></i></div>

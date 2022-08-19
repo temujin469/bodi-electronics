@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Varela+Round&display=swap');
 :root {
   --blue: #296cba;
   --white: #fff;
@@ -7,7 +9,7 @@
   --saaral:rgb(179, 179, 179);
   --gray:#383F46;
   --tsagaanSaaral:rgb(238, 238, 238);
-  --textColor: rgb(42, 42, 42);
+  --textColor: rgb(31, 31, 31);
   --ulbarShar: #f16122;
   --sm:576px;
   --md:768px;
@@ -16,10 +18,22 @@
 
 html > body > .body > .main h3 {
   line-height: 33px;
+  font-weight: bold;
+  letter-spacing: 0.3px !important;
+}
+html > body > .body > .main h4 {
+  font-weight: bold;
+  letter-spacing: 0.4px !important;
 }
 
 html > body > .body > .main p {
   line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+html > body > .body a {
+  line-height: 25px;
+  letter-spacing: 0.2px;
 }
 
 /* ======= */

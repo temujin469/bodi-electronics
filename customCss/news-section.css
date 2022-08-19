@@ -16,6 +16,8 @@
 
 section.news article h4 a {
   font-size: 16px;
+  font-weight: 600;
+  line-height: 0 !important;
 }
 
 section.news article:hover {

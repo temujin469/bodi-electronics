@@ -13,7 +13,8 @@
   text-transform: none;
   font-size: 15px !important;
   font-weight: 500;
-  line-height: 25px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 
 #footer i {

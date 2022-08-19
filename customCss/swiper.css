@@ -45,7 +45,8 @@ section.swiper-section .swiper-column > .shiidel h5 {
 
 @media (min-width:978px) {
   section.swiper-section .swiper-column > .shiidel h5 {
-    font-size: 15px !important;
+    font-size: 13px !important;
+    letter-spacing:0.6px;
   }
 }
 
@@ -55,11 +56,15 @@ section.swiper-section .swiper-column > .shiidel h5 {
     font-size: 10px !important;
   }
   section.swiper-section .swiper-column > .shiidel>a >img {
-    width: 35px !important ;
+    width: 27px !important ;
   }
 
   section.swiper-section .swiper-column > .shiidel {
     gap:7px !important;
+  }
+
+  section.swiper-section .swiper-column {
+    gap: 20px !important;
   }
 }
 
@@ -70,18 +75,26 @@ section.swiper-section h3 {
 section.swiper-section .swiper-column {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 48px;
 }
 
 section.swiper-section .swiper-column > .shiidel {
   display: flex;
   align-items: center;
-  height: 52px;
+  width: 100%;
+  height: 70px;
+  padding:10px;
   gap:13px;
 }
 
+section.swiper-section .swiper-column > .shiidel:hover {
+  border-radius:10px; 
+  box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.329);
+}
+
 section.swiper-section .swiper-column > .shiidel>a >img {
-  width: 50px ;
+  width: 40px ;
 }
 
 section.swiper-section .owl-carousel.owl-drag .owl-item {
