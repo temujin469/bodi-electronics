@@ -17,22 +17,22 @@
 }
 
 html > body > .body > .main h3 {
-  line-height: 33px;
+  line-height: 28px;
   font-weight: bold;
-  letter-spacing: 0.3px !important;
+  letter-spacing: 0.2px !important;
 }
 html > body > .body > .main h4 {
-  font-weight: bold;
-  letter-spacing: 0.4px !important;
+  letter-spacing: 0.2px !important;
+  font-weight: 500;
 }
 
 html > body > .body > .main p {
-  line-height: 25px;
+  line-height: 23px;
   letter-spacing: 0.2px;
 }
 
 html > body > .body a {
-  line-height: 25px;
+  line-height: 20px;
   letter-spacing: 0.2px;
 }
 
