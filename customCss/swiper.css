@@ -39,10 +39,16 @@
 /*========= swiper-section ========= */
 section.swiper-section .swiper-column > .shiidel h5 {
  margin: 0;
- font-size: 15px;
  color: var(--gray);
  word-wrap: break-word !important;
 }
+
+@media (min-width:978px) {
+  section.swiper-section .swiper-column > .shiidel h5 {
+    font-size: 15px !important;
+  }
+}
+
 
 @media (max-width:779px) {
   section.swiper-section .swiper-column > .shiidel h5 {

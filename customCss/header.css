@@ -120,17 +120,12 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     padding: 0 30px 0 30px !important;
   }
 
-  /* html #header .header-row2 li.dropdown {
-    height: 65px !important;
-  } */
+  html #header .header-row2 li.dropdown {
+    height: 64px !important;
+  }
 
-  /* html #header .header-container #header-links .header-row2 {
-    height: 65px !important;
-    overflow: hidden;
-  } */
-
-  html #header .header-container #header-links {
-    height: 70px !important;
+  html #header .header-container #header-links{
+    height: 64px !important;
   }
 
   /* html.sticky-header-active
@@ -153,12 +148,16 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     text-transform: uppercase;
     padding: 0 3rem;
   } */
-
   html #header .header-nav.header-nav-links nav > ul > li > a.dropdown-item {
     height: 100%;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 4px 30px 0px 30px;
+    padding: 0 30px 0px 30px;
+
+  }
+
+  html #header .header-nav.header-nav-links nav > ul > li > a.dropdown-item.dropdown-toggle {
+    padding: 5px 30px 0px 30px;
   }
 
   html #header .header-nav.header-nav-links nav > ul.nav {
