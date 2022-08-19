@@ -16,7 +16,8 @@
 
 section.news article h4 a {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
+  color:var(--textColor);
   line-height: 0 !important;
 }
 
