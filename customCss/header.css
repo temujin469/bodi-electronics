@@ -4,6 +4,12 @@
   display: inline-block;
 }
 
+/* header color */
+html:not(.sticky-header-active)
+  #header .header-body {
+  background-color: var(--saaral) !important;
+}
+
 #header .header-nav-top i {
   font-size: 15px !important;
   color: var(--textColor);
@@ -116,6 +122,7 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     display: flex;
     align-items: center;
   } */
+
 
   #header .header-top {
     padding: 0 30px 0 30px !important;

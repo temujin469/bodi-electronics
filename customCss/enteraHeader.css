@@ -1,34 +1,264 @@
-#header div.header-top {
-  background-color: #1F1F1F;
-  padding: 0 30px 0 30px !important;
-}
-#header .header-body {
-  background-color: #1F1F1F;
-  height: 64px !important;
-  width: 100%;
+#header .header-nav-top .nav > li > a {
+  padding: 0;
+  font-size: 14px !important;
+  display: inline-block;
 }
 
-#header div.header-top * {
-  color: var(--white) !important;
-}
-
-#header div.header-top .border-right {
-  border-right: 1px solid white !important;
-}
-
-.fa-search.header-nav-top-icon {
+#header .header-nav-top i {
   font-size: 15px !important;
+  color: var(--textColor);
 }
 
-#header .header-top .header-logo img {
-  max-width: 200px !important;
+
+
+#header .header-row2 .logo img {
+  width: 100px !important;
+  /* background-color: white; */
 }
 
-.swiper-logo {
-  position:absolute;
-  z-index: 100;
-  top:30px;
-  left:30px;
-  width: 130px;
-  object-fit: contain;
+
+
+html.sticky-header-active #header.header-semi-transparent-light .header-body {
+  box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.618) !important;
+  background-color: var(--gray);
+}
+
+@media (max-width: 764px) {
+  #header .header-nav.header-nav-links nav > ul > li > a,
+  #header .header-nav.header-nav-links nav > ul > li:hover > a,
+  #header .header-nav.header-nav-line nav > ul > li > a,
+  #header .header-nav.header-nav-line nav > ul > li:hover > a {
+    position: relative;
+    background: 0 0 !important;
+    margin: 0;
+  }
+}
+
+#header .header-top i {
+  color: white !important;
+}
+
+/* max-width 991px */
+@media (max-width: 991px) {
+  html:not(.sticky-header-active)
+    #header
+    .header-nav.header-nav-links
+    nav
+    > ul
+    > li
+    > a {
+    min-height: 100%;
+  }
+
+  #header .header-top {
+    padding: 0 13px 0 13px;
+  }
+
+  #header .header-nav-main {
+    position: absolute;
+    width: 100%;
+    top: calc(100% + 5px);
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+  }
+  /* #header .header-top .header-logo img {
+    max-width: 90px !important;
+  } */
+
+  #header .header-container #header-links {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  html #header .header-container #header-links {
+    height: 50px;
+  }
+  html #header .fa-bars:before {
+    color: var(--saaral) !important;
+    font-size: 23px;
+  }
+
+  #header .header-row2 .logo img {
+    width: 75px !important;
+  }
+
+  #header .header-top .header-logo img {
+    max-width: 190px !important;
+  }
+
+  #header .header-top {
+    border-bottom: none;
+    height:50px !important ;
+    /* min-height: 47px; */
+  }
+
+  #header img.brand-logo {
+    max-width: 100px;
+    padding-right: 15px;
+  }
+}
+/* max-width 991px end*/
+
+/* min-width 991px*/
+@media (min-width: 991px) {
+  #header .header-nav.header-nav-links nav > ul:not(:hover) > li > a.active {
+    color: var(--blue);
+    background-color: var(--white) !important;
+    transition: all ease transform 300ms !important;
+  }
+
+  #header .header-nav-main nav > ul > li.dropdown-mega .dropdown-menu {
+    padding: 6px 30px 6px 30px !important;
+    box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.103);
+  }
+  
+
+  /* html.sticky-header-active #header .logo-column {
+    background-color: transparent !important;
+    height: 65px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+  } */
+
+  #header .header-top {
+    padding: 0 30px 0 30px !important;
+  }
+
+  html #header .header-row2 li.dropdown {
+    height: 60px !important;
+    padding-top:3px;
+  }
+
+  html #header .header-container #header-links{
+    height: 50px !important;
+  }
+
+  /* html.sticky-header-active
+    #header
+    .header-container
+    #header-links
+    .header-row2 {
+    max-height: 75px;
+  } */
+
+  /* html.sticky-header-active
+    #header
+    .header-nav.header-nav-links
+    nav
+    > ul
+    > li
+    > a {
+    min-height: 100%;
+    height: 75px;
+    text-transform: uppercase;
+    padding: 0 3rem;
+  } */
+  html #header .header-nav.header-nav-links nav > ul > li > a.dropdown-item {
+    height: 100%;
+    font-size: 15px;
+    /* text-transform: uppercase; */
+    padding: 0px 20px 0px 20px;
+
+  }
+  #header .header-nav-main.header-nav-main-square nav > ul > li.dropdown-mega .dropdown-mega-sub-nav > li > a {
+    letter-spacing: 0.2px;
+  }
+
+  html #header .header-nav.header-nav-links nav > ul > li > a.dropdown-item.dropdown-toggle {
+    padding: 7px 20px 0px 20px;
+    position: static;
+  }
+
+  html #header .header-nav.header-nav-links nav > ul.nav {
+    display: flex;
+    align-items: center !important;
+  }
+
+
+  #header .header-row2 .logo img {
+    width: 87px !important;
+    object-fit: contain;
+  }
+
+  #header .header-nav.header-nav-links nav > ul > li > a {
+    font-size: 18px;
+  }
+
+  #header .header-nav.header-nav-links nav > ul > li:hover > a {
+    background-color: white !important;
+    color: var(--blue) !important;
+    transition: all ease transform 300ms !important;
+  }
+
+  .dropdown-menu .row div:not(:last-child) {
+    border-right: 0.1px solid var(--transColor);
+  }
+
+  div.dropdown-mega-content > div.row > div {
+    padding: 0 20px 0 20px !important;
+    /* text-align: center; */
+  }
+
+  /* div.dropdown-mega-content > div.row {
+    padding-left:30px !important;
+    padding-right:30px !important;
+  } */
+
+  #header .header-top .header-logo img {
+    max-width: 210px !important;
+  }
+  #header img.brand-logo {
+    max-width: 100px;
+    padding-right: 20px;
+  }
+
+  #header .header-top {
+    border-bottom: none;
+    background-color: black;
+    height:50px !important ;
+    /* min-height: 47px; */
+  }
+
+  html #header .header-container {
+    padding: 0 30px 0 30px;
+  }
+
+  ul.dropdown-menu.single > li >a.dropdown-item {
+    font-size: 14px !important;
+  }
+}
+/* min-width 991px end*/
+
+html #header .header-container {
+  background-color: var(--gray);
+}
+
+/* html #header .header-row2 {
+  background: #383f46 !important;
+} */
+
+
+#header .header-top {
+  background-color: black;
+}
+
+.header-row2 {
+  overflow: hidden !important;
+}
+
+
+#header .header-top .header-row a {
+  color: var(--textColor);
+}
+
+#header .header-body {
+  display: flex;
+  flex-direction: column;
+  transition: min-height 0.3s ease;
+  width: 100%;
+  border-top: none;
+  border-bottom: none;
+  z-index: 1001;
 }

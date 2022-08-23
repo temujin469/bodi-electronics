@@ -71,11 +71,7 @@ html > body > .body > .main h4 {
   }
 }
 
-/* header color */
-html:not(.sticky-header-active)
-  #header .header-body {
-  background-color: var(--saaral) !important;
-}
+
 
 body > .body > .main {
   padding-top: 144px;

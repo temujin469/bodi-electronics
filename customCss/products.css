@@ -45,9 +45,6 @@ section.products {
   display: none !important;
 }
 
-body > .body > .main {
-  padding-top: 56px !important;
-}
 
 /* ========= products ========= */
 section.products .products-row {
