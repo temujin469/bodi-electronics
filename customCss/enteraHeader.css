@@ -108,9 +108,8 @@ html.sticky-header-active #header.header-semi-transparent-light .header-body {
     transition: all ease transform 300ms !important;
   }
 
-  #header .header-nav-main nav > ul > li.dropdown-mega .dropdown-menu {
+  #header .header-nav-main nav > ul > li.dropdown-mega .dropdown-mega-content {
     padding: 6px 30px 6px 30px !important;
-    box-shadow: 0px 2px 3px 0 rgba(0, 0, 0, 0.103);
   }
   
 
