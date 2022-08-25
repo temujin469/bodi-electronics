@@ -95,7 +95,9 @@ section.swiper-section .swiper-column > .shiidel:hover {
 }
 
 section.swiper-section .swiper-column > .shiidel>a >img {
-  width: 40px ;
+  width: 33px ;
+  height: 33px ;
+  object-fit: contain;
 }
 
 section.swiper-section .owl-carousel.owl-drag .owl-item {
