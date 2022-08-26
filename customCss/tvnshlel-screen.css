@@ -1,0 +1,185 @@
+/* .heading {
+  width: fit-content;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+html>body div.main span {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.enterButton {
+  font-size: 20px;
+  gap:5px;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+}
+
+.enterButton> ion-icon {
+  font-size: 30px;
+}
+
+div.options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width:760px) {
+  div.options {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 110px 0 110px;
+  }
+}
+
+button.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--tsagaanSaaral);
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  padding: 0;
+}
+
+button.option:hover {
+  box-shadow: -1px 1px 4px 0 var(--saaral);
+}
+
+button.option p {
+  text-align: start;
+  flex: 1;
+  margin: 0;
+  font-size: 20px;
+  padding: 20px;
+  border-right: 2px solid var(--saaral) !important;
+
+}
+
+button.option > ion-icon {
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--saaral);
+  padding:20px ;
+}
+
+button.option.active > i {
+  justify-content: center;
+  color: var(--blue);
+  transform: rotate(180deg);
+}
+
+button.option.active > p {
+  color: var(--blue);
+}
+
+button.option.active  {
+  color: var(--blue);
+}
+
+.tabcontent {
+  display: none;
+  margin: 40px 0 30px 0;
+}
+
+div.date {
+  display: flex;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid var(--saaral);
+}
+
+@media (max-width:500px) {
+  div.date {
+    justify-content: center;
+  }
+}
+
+div.date span {
+  font-size: 16px;
+  color: black;
+}
+
+div.date > p:first-child{
+  border-right: 1px solid var(--saaral);
+}
+
+div.date > p {
+  padding:20px;
+}
+
+div.document > div {
+  margin: 40px 0 0 0;
+}
+
+div.document p ,div.document li,div.document a {
+  font-size: 16px;
+}
+
+div.document ul {
+  list-style: none;
+}
+
+div.document ul> li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: var(--blue); /* Change the color */
+  font-weight:bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+div.document button.submit-btn {
+  background-color: var(--blue);
+  padding: 15px 50px 15px 50px;
+  border-radius: 20px;
+  border: 3px solid transparent;
+}
+
+@media (max-width:700px) {
+  div.document button.submit-btn {
+    width: 100%;
+  }
+
+  div.document p ,div.document li,div.document a {
+    font-size: 14px;
+  }
+
+  button.option p {
+    font-size: 14px;
+  }
+}
+
+div.document button.submit-btn:hover {
+  background-color: var(--white);
+  border:3px solid var(--blue);
+}
+
+div.document button.submit-btn:hover > a {
+  color: var(--blue);
+}
+
+div.document button.submit-btn a {
+  color: var(--white);
+}
+
+.clr-blue {
+  color: var(--blue);
+}
+
