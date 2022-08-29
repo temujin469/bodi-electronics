@@ -6,6 +6,10 @@ body > .body > .main {
   font-size: 20px;
 }
 
+.header-logo-entera img {
+  max-width: 98px !important;
+}
+
 .product .image-container {
   background-color: var(--tsagaanSaaral);
   margin-bottom: 10px;
@@ -16,7 +20,7 @@ body > .body > .main {
 }
 
 html > body > .body > .main h3 {
-  font-size: 25px ;
+  font-size: 18px ;
 }
 
 .product .price,.product .name {

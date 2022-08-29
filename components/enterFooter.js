@@ -6,8 +6,8 @@ const footer = `
 <div class="container-fluid py-4 px-md-5">
   <div class="row p-0 py-md-4">
     <div class="col-lg-6 col-xl-3 d-flex align-items-center p-0">
-      <a href="../entera/index.html">
-        <img class="logo" src="/logo/entera  tsagaan logo.png" />
+      <a href="/index.html">
+        <img class="logo" src="/logo/bodi electronics  tsagaan.png" />
       </a>
     </div>
     <div class="col-lg-6 col-xl-3 footer-text p-0">

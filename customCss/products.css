@@ -1,23 +1,23 @@
 
 section.products .owl-theme .owl-nav > button {
   position: absolute;
-  top: 35%;
+  top: 40%;
   background-color: rgba(0, 0, 0, 0.247) !important;
   width: 40px !important;
   border-radius: 50%;
   height: 40px !important;
 }
 
-section.categories .owl-theme .owl-nav > .owl-prev {
-  left: 2px;
+section.products .owl-theme .owl-nav > .owl-prev {
   display: flex;
+  left: -50px;
   align-items: center;
   justify-content: center;
 }
 
-section.categories .owl-theme .owl-nav > .owl-next {
-  right: 2px;
+section.products .owl-theme .owl-nav > .owl-next {
   display: flex;
+  right: -50px;
   align-items: center;
   justify-content: center;
 }

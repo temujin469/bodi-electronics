@@ -6,7 +6,7 @@ section.news h5 {
 
 section.news article>.row img {
   padding-bottom: 10px;
-  height:250px;
+  height:210px;
 
 }
 
@@ -19,7 +19,7 @@ section.news article>.row {
 }
 
 section.news article {
-  height:400px;
+  height:360px;
 }
 
 .col-lg-4 {

@@ -7,7 +7,7 @@
 .owl-carousel.dots-inside .owl-dots {
   position: absolute;
   bottom: 1rem;
-  left: 3rem;
+  right: 3rem;
   /* width: auto; */
   margin-top: 0;
 }
