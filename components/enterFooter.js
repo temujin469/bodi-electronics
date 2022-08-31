@@ -42,7 +42,7 @@ const footer = `
     <div
       class="pb-md-5 pb-4 footer-links d-flex flex-column flex-md-row gap-3 gap-md-5 justify-content-between justify-content-lg-center w-100">
       <a href="../entera/news.html" class="">Мэдээ мэдээлэл</a>
-      <a href="../entera/zaswar-uilchilgee.html" class="">Засвар үйлчилгээ</a>
+      <a href="../entera/zaswar-vilchilgee.html" class="">Засвар үйлчилгээ</a>
       <a href="../entera/arga-hemjee.html" class="">Арга хэмжээ</a>
       <a href="../entera/sanal-hvselt.html" class="">Санал хүсэлт</a>
     </div>

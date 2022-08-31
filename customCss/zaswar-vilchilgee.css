@@ -1,0 +1,31 @@
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--tsagaanSaaral);
+  color: rgb(34, 34, 34);
+}
+
+tr.head > th {
+  background-color: rgb(194, 194, 194);
+}
+
+form button {
+  background-color: var(--blue);
+  border: 3px solid transparent;
+  width: fit-content;
+  color: white;
+  padding: 13px 70px 13px 70px;
+  border-radius: 70px;
+}
+
+form button:hover {
+  background-color: var(--white);
+  border: 3px solid var(--blue);
+  color: var(--blue);
+}

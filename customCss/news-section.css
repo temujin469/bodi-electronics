@@ -11,6 +11,7 @@
   section.news article {
     height:370px;
     overflow: hidden;
+    border-radius: 10px;
   }
 }
 
