@@ -1,17 +1,18 @@
 table td, table th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 3px;
 }
 
-table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+table tr:not(.head) th {
+  font-size:14px ;
   text-align: left;
   background-color: var(--tsagaanSaaral);
   color: rgb(34, 34, 34);
 }
 
 tr.head > th {
+  padding-top: 9px;
+  padding-bottom: 9px;
   background-color: rgb(194, 194, 194);
 }
 

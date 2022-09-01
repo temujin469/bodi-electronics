@@ -4,14 +4,19 @@
   section.news article {
     height:390px;
     overflow: hidden;
+    
   }
+}
+
+section.news article {
+  border-radius: 10px !important  ;
+  overflow: hidden !important;    
 }
 
 @media (min-width:1400px) {
   section.news article {
     height:370px;
     overflow: hidden;
-    border-radius: 10px;
   }
 }
 
